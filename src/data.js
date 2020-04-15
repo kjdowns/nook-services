@@ -319,6 +319,326 @@ const bugData = [
         northMonths: ["Apr - Sep"],
         southMonths: [],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-giantwaterbug.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Stinkbug",
+        location: "On Flowers",
+        time: "All day",
+        northMonths: ["Mar - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Icon-stinkbug.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Man-faced stink bug",
+        location: "On Flowers",
+        time: "7 PM - 8 AM",
+        northMonths: ["Mar - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-manfacedstinkbug.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Ladybug",
+        location: "On Flowers",
+        time: "8 AM - 5 PM",
+        northMonths: ["Mar - Jun", "Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Icon-ladybug.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Tiger beetle",
+        location: "On the Ground",
+        time: "All day",
+        northMonths: ["Reb - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-tigerbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Jewel beetle",
+        location: "On Tree Stumps",
+        time: "All day",
+        northMonths: ["Apr - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-jewelbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Violin beetle",
+        location: "On Tree Stumps",
+        time: "All day",
+        northMonths: ["May - Jun", "Sep - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-violinbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Citrus long-horned beetle",
+        location: "On Tree Stumps",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-citruslonghornedbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Rosalia batesi beetle",
+        location: "On Tree Stumps	",
+        time: "All day",
+        northMonths: ["May - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Icon-rosaliabatesibeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Blue weevil beetle",
+        location: "On Trees",
+        time: "All day",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Icon-blueweevilbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Dung beetle",
+        location: "On the Ground (rolling snowballs)",
+        time: "All day",
+        northMonths: ["Dec - Feb"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-dungbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005431"
+    },
+    {
+        name: "Earth-boring dung beetle",
+        location: "On the Ground",
+        time: "All day",
+        northMonths: ["Jul - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-earthboringdungbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Scarab beetle",
+        location: "On Trees",
+        time: "11 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Icon-scarabbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Drone beetle",
+        location: "On Trees",
+        time: "All day	",
+        northMonths: ["Jun - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-dronebeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Goliath beetle",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Icon-goliathbeetle.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Saw stag",
+        location: "On Trees",
+        time: "All day",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Icon-sawstag.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Miyama stag",
+        location: "On Trees",
+        time: "All day",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Icon-miyamastag.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Giant stag",
+        location: "On Trees",
+        time: "11 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-giantstag.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Rainbow stag",
+        location: "On Trees",
+        time: "7 PM - 8 AM",
+        northMonths: ["Jun - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-rainbowstag.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Cyclommatus stag",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Icon-cyclommatusstag.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Golden stag",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-goldenstag.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Giraffe stag",
+        location: "On Trees",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Horned dynastid",
+        location: "On Trees",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-horneddynastid.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Horned atlas",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-hornedatlas.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Horned elephant",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-hornedelephant.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Horned hercules",
+        location: "On Trees (Coconut)",
+        time: "5 PM - 8 AM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Icon-hornedhercules.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Walking stick",
+        location: "On Trees",
+        time: "4 AM - 8 AM & 5 PM - 7 PM",
+        northMonths: ["Jul - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Icon-walkingstick.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Walking leaf",
+        location: "Under Trees Disguised as Leafs",
+        time: "All day",
+        northMonths: ["Jul - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Icon-walkingleaf.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Bagworm",
+        location: "Shaking Trees",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Icon-bagworm.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Ant",
+        location: "On rotten food",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-Icon-ant.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Hermit crab",
+        location: "Beach disguised as Shells",
+        time: "7 PM - 8 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-hermitcrab.png/revision/latest/scale-to-width-down/64?cb=20200401005430"
+    },
+    {
+        name: "Wharf roach",
+        location: "On Beach Rocks",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Icon-wharfroach.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Fly",
+        location: "On Trash Items",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-fly.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Mosquito",
+        location: "Flying",
+        time: "5 PM - 4 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-mosquito.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Flea",
+        location: "Villager's Heads",
+        time: "All day",
+        northMonths: ["Apr - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/92/NH-Icon-flea.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Snail",
+        location: "On Rocks (Rain)",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Icon-snail.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Pill bug",
+        location: "Hitting Rocks",
+        time: "11 PM - 4 PM",
+        northMonths: ["Sep - Jun"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-pillbug.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
+    },
+    {
+        name: "Centipede",
+        location: "Hitting Rocks",
+        time: "4 PM - 11 PM",
+        northMonths: ["Sep - Jun"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Icon-centipede.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Spider",
+        location: "Shaking Trees",
+        time: "7 PM - 8 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-spider.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Tarantula",
+        location: "On the Ground",
+        time: "7 PM - 4 AM",
+        northMonths: ["Nov - Apr"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Icon-tarantula.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
+    },
+    {
+        name: "Scorpion",
+        location: "On the Ground",
+        time: "7 PM - 4 AM",
+        northMonths: ["May - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Icon-scorpion.png/revision/latest/scale-to-width-down/64?cb=20200401005429"
     }
 
 ]
@@ -334,7 +654,8 @@ const fishData = [
     }
 ]
 
-let template = {
+let template = 
+{
     name: "",
     location: "",
     time: "",
