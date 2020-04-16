@@ -1085,12 +1085,204 @@ const fishData = [
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
-        name: "",
-        location: "",
-        time: "",
-        northMonths: [],
+        name: "Anchovy",
+        location: "Sea",
+        time: "4 AM - 9 PM",
+        northMonths: ["All Year"],
         southMonths: [],
-        url: ""
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Horse mackerel",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Barred knifejaw",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Mar - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Sea bass",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Red snapper",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Dab",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Oct - Apr"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Olive flounder",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Squid",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Dec - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Moray eel",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Aug - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Ribbon eel",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Jun - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Tuna",
+        location: "Pier",
+        time: "All day",
+        northMonths: ["Nov - Apr"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Blue marlin",
+        location: "Pier",
+        time: "All day",
+        northMonths: ["Nov - Apr", "Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Giant trevally",
+        location: "Pier",
+        time: "All day",
+        northMonths: ["May - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Mahi-mahi",
+        location: "Pier",
+        time: "All day",
+        northMonths: ["May - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Ocean sunfish",
+        location: "Sea",
+        time: "4 AM - 9 PM",
+        northMonths: ["Jul - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Ray",
+        location: "Sea",
+        time: "4 AM - 9 PM",
+        northMonths: ["Aug - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Saw shark",
+        location: "Sea",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Hammerhead shark",
+        location: "Sea",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Great white shark",
+        location: "Sea",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Whale shark",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Suckerfish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png/revision/latest/scale-to-width-down/64?cb=20200401003131"
+    },
+    {
+        name: "Football fish",
+        location: "Sea",
+        time: "4 PM - 9 AM",
+        northMonths: ["Nov - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Oarfish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Dec - May"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Barreleye",
+        location: "Sea",
+        time: "9 PM - 4 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Coelacanth",
+        location: "Sea (Raining)",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     }
 ]
 
