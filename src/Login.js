@@ -8,7 +8,7 @@ class Login extends Component {
         this.state = {
             username: '',
             password: '',
-            redirect: null
+            logInSuccess: false
         }
     }
 
@@ -23,13 +23,13 @@ class Login extends Component {
         this.setState({
             username: '',
             password: '',
-            redirect: "/"
+            logInSuccess: true
         })
     }
 
     render(){
-        if (this.state.redirect) {
-            return <Redirect to={this.state.redirect} />
+        if (this.state.logInSuccess) {
+            return <Redirect to='/' />
         }
         return (
             <div>
