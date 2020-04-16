@@ -1,5 +1,5 @@
 
-export let bugData = [
+export const bugData = [
     {
         name: "Common butterfly",
         location: "Flying",
@@ -643,7 +643,7 @@ export let bugData = [
 
 ]
 
-const fishData = [
+export const fishData = [
     {
         name: "Bitterling",
         location: "River",

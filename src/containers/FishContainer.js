@@ -7,7 +7,9 @@ class FishContainer extends Component {
     render(){
         return(
             <div>
-                <FishCard/>
+                {fishData.map(fish => (
+                    <FishCard name={fish.name} location={fish.location} time={fish.time} northMonths={fish.northMonths} southMonths={fish.southMonths} url={fish.url} />
+                ))}
             </div>
         )
     }
