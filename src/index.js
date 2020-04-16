@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Bugs from './Bugs'
+import Login from './Login'
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Router>
       <Route exact path="/" component={App} />
       <Route exact path="/bugs" component={Bugs} />
+      <Route exact path="/login" component={Login} />
     </Router>
   </Provider>,
   document.getElementById('root')
