@@ -1,5 +1,5 @@
 
-const bugData = [
+export let bugData = [
     {
         name: "Common butterfly",
         location: "Flying",
@@ -654,12 +654,3 @@ const fishData = [
     }
 ]
 
-let template = 
-{
-    name: "",
-    location: "",
-    time: "",
-    northMonths: [],
-    southMonths: [],
-    url: ""
-}
