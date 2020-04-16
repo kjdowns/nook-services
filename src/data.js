@@ -885,6 +885,206 @@ const fishData = [
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
+        name: "Salmon",
+        location: "River (Mouth)",
+        time: "All day",
+        northMonths: ["Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "King salmon",
+        location: "River (Mouth)",
+        time: "All day",
+        northMonths: ["Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Mitten crab",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["Sep - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Guppy",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["Apr - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Nibble fish",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["May - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Angelfish",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["May - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Betta",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["May - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Neon tetra",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["Apr - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Rainbowfish",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["May - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Piranha",
+        location: "River",
+        time: "9 AM - 4 PM & 9 PM - 4 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Arowana",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Dorado",
+        location: "River",
+        time: "4 AM - 9 PM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Gar",
+        location: "Pond",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Arapaima",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Saddled bichir",
+        location: "River",
+        time: "9 PM - 4 AM",
+        northMonths: ["Jun - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Sturgeon",
+        location: "River (Mouth)",
+        time: "All day",
+        northMonths: ["Sep - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Sea butterfly",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Dec - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Sea horse",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Apr - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Clown fish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Apr - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Surgeonfish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Apr - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Butterfly fish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Apr - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Napoleonfish",
+        location: "Sea",
+        time: "4 AM - 9 PM",
+        northMonths: ["Jul - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Zebra turkeyfish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Apr - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Blowfish",
+        location: "Sea",
+        time: "9 PM - 4 AM",
+        northMonths: ["Nov - Feb"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Puffer fish",
+        location: "Sea",
+        time: "All day",
+        northMonths: ["Jul - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
         name: "",
         location: "",
         time: "",
