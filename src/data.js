@@ -645,6 +645,246 @@ export let bugData = [
 
 const fishData = [
     {
+        name: "Bitterling",
+        location: "River",
+        time: "All day",
+        northMonths: ["Nov - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
+    },
+    {
+        name: "Pale chub",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Crucian carp",
+        location: "River",
+        time: "All day	",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Dace",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Carp",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Koi",
+        location: "Pond",
+        time: "4 PM - 9 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Goldfish",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Pop-eyed goldfish",
+        location: "Pond	",
+        time: "9 AM - 4 PM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Ranchu goldfish",
+        location: "Pond	",
+        time: "9 AM - 4 PM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Killifish",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["Apr - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Crawfish",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["Apr - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Soft-shelled turtle",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["Aug - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Snapping Turtle",
+        location: "River",
+        time: "9 PM - 4 AM",
+        northMonths: ["Apr - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Tadpole",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["Mar - Jul"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Frog",
+        location: "Pond",
+        time: "All day",
+        northMonths: ["May - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Freshwater goby",
+        location: "River",
+        time: "4 PM - 9 AM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Loach",
+        location: "River",
+        time: "All day",
+        northMonths: ["Mar - May"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Catfish",
+        location: "Pond",
+        time: "4 PM - 9 AM",
+        northMonths: ["May - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Giant snakehead",
+        location: "Pond",
+        time: "9 AM - 4 PM",
+        northMonths: ["Jun - Aug"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Bluegill",
+        location: "River",
+        time: "9 AM - 4 PM",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Yellow perch",
+        location: "River",
+        time: "All day",
+        northMonths: ["Oct - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Black bass",
+        location: "River",
+        time: "All day",
+        northMonths: ["All Year"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Tilapia",
+        location: "River",
+        time: "All day",
+        northMonths: ["Jun - Oct"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Pike",
+        location: "River",
+        time: "All day",
+        northMonths: ["Sep - Dec"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Pond smelt",
+        location: "River",
+        time: "All day",
+        northMonths: ["Dec - Feb"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
+    },
+    {
+        name: "Sweetfish",
+        location: "River",
+        time: "All day",
+        northMonths: ["Jul - Sep"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Cherry salmon",
+        location: "River (Clifftop)",
+        time: "4 PM - 9 AM",
+        northMonths: ["Mar - Jun", "Sep - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Char",
+        location: "River (Clifftop)",
+        time: "4 PM - 9 AM",
+        northMonths: ["Mar - Jun", "Sep - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Golden trout",
+        location: "River (Clifftop)",
+        time: "4 PM - 9 AM",
+        northMonths: ["Mar - May", "Sep - Nov"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
+        name: "Stringfish",
+        location: "River (Clifftop)",
+        time: "4 PM - 9 AM",
+        northMonths: ["Dec - Mar"],
+        southMonths: [],
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
+    },
+    {
         name: "",
         location: "",
         time: "",
