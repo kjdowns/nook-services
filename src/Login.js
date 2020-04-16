@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Redirect} from 'react-router-dom'
 
 class Login extends Component {
 
@@ -6,7 +7,8 @@ class Login extends Component {
         super()
         this.state = {
             username: '',
-            password: ''
+            password: '',
+            redirect: null
         }
     }
 
@@ -17,14 +19,22 @@ class Login extends Component {
     }
 
     handleSubmit = (event) => {
-
+        event.preventDefault();
+        this.setState({
+            username: '',
+            password: '',
+            redirect: "/"
+        })
     }
 
     render(){
+        if (this.state.redirect) {
+            return <Redirect to={this.state.redirect} />
+        }
         return (
             <div>
                 <h1>Login Page</h1>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <div>
                         <label>Username: </label>
                         <input type="text" name="username" value={this.props.username} onChange={this.handleChange} />
