@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Bugs from './Bugs'
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'
@@ -15,6 +16,7 @@ ReactDOM.render(
   <Provider store={store}>
     <Router>
       <Route exact path="/" component={App} />
+      <Route exact path="/bugs" component={Bugs} />
     </Router>
   </Provider>,
   document.getElementById('root')
