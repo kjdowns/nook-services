@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FishContainer from './containers/FishContainer'
 
 class Fish extends Component {
 
@@ -6,6 +7,7 @@ class Fish extends Component {
         return(
             <div>
                 <h1>Fish Page</h1>
+                <FishContainer />
             </div>
         )
     }
