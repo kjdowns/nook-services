@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import LinkCard from '../components/LinkCard'
 
 class LinkContainer extends Component {
     
     render (){
-        <div className="link-container">
-
-        </div>
+        return (
+            <div className="link-container">
+                <LinkCard name={"bugs"} />
+            </div>
+        )
     }
 
 }
