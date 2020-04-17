@@ -23,7 +23,26 @@ class Signup extends Component {
 
     render(){
         return(
-            <div></div>
+            <div>
+                <h1>Signup Page</h1>
+                <form>
+                    <div>
+                        <label>Username: </label>
+                        <input type="text" name="username" value={this.state.username}/>
+                    </div>
+                    <div>
+                        <label>Password: </label>
+                        <input type="password" name="password" value={this.state.password}/>
+                    </div>
+                    <div>
+                        <label>Confirm: </label>
+                        <input type="password" name="passwordConfirm" value={this.state.passwordConfirm}/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Signup"/>
+                    </div>
+                </form>
+            </div>
         )
     }
 
