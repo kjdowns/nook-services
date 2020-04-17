@@ -7,6 +7,7 @@ class LinkContainer extends Component {
         return (
             <div className="link-container">
                 <LinkCard name={"bugs"} />
+                <LinkCard name={"fish"} />
             </div>
         )
     }
