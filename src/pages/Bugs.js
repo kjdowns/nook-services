@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BugContainer from './containers/BugContainer'
+import BugContainer from '../containers/BugContainer'
 
 class Bugs extends Component {
 

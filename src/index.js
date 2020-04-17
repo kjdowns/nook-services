@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Bugs from './Bugs'
-import Fish from './Fish'
-import Login from './Login'
+import Home from './pages/App';
+import Bugs from './pages/Bugs'
+import Fish from './pages/Fish'
+import Login from './pages/Login'
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'
@@ -19,7 +19,7 @@ ReactDOM.render(
   <Provider store={store}>
     <Router>
       <Navbar/>
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/bugs" component={Bugs} />
       <Route exact path="/fish" component={Fish} />
       <Route exact path="/login" component={Login} />

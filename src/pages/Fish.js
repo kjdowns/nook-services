@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import FishContainer from './containers/FishContainer'
+import FishContainer from '../containers/FishContainer'
 
 class Fish extends Component {
 
