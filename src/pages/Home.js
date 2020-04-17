@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LinkContainer from '../containers/LinkContainer'
 import {connect} from 'react-redux'
 
 class Home extends Component {
@@ -7,6 +8,7 @@ class Home extends Component {
     return (
       <div>
         <h1>Nook Services</h1>
+        <LinkContainer />
       </div>
     )
   }
