@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Redirect} from 'react-router-dom'
 
 class Login extends Component {
 
@@ -20,17 +19,16 @@ class Login extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
+        const {history} = this.props
         this.setState({
             username: '',
             password: '',
-            logInSuccess: true
         })
+        history.push('/')
     }
 
     render(){
-        if (this.state.logInSuccess) {
-            return <Redirect to='/' />
-        }
+
         return (
             <div>
                 <h1>Login Page</h1>
