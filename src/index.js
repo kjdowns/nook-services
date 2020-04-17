@@ -11,12 +11,14 @@ import thunk from 'redux-thunk'
 import userReducer from './reducers/userReducer'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/NavBar';
 
 const store = createStore(userReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
   <Provider store={store}>
     <Router>
+      <Navbar/>
       <Route exact path="/" component={App} />
       <Route exact path="/bugs" component={Bugs} />
       <Route exact path="/fish" component={Fish} />

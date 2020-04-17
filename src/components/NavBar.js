@@ -1,8 +1,9 @@
 import React from 'react'
-import {Navlink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = () => 
+        <div>
+            <NavLink to="/login" exact >Login</NavLink>
+        </div>
 
-}
-
-export default Navbar
+export default Navbar;
