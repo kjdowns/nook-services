@@ -28,15 +28,15 @@ class Signup extends Component {
                 <form>
                     <div>
                         <label>Username: </label>
-                        <input type="text" name="username" value={this.state.username}/>
+                        <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />
                     </div>
                     <div>
                         <label>Password: </label>
-                        <input type="password" name="password" value={this.state.password}/>
+                        <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
                     </div>
                     <div>
                         <label>Confirm: </label>
-                        <input type="password" name="passwordConfirm" value={this.state.passwordConfirm}/>
+                        <input type="password" name="passwordConfirm" value={this.state.passwordConfirm} onChange={this.handleChange} />
                     </div>
                     <div>
                         <input type="submit" value="Signup"/>
