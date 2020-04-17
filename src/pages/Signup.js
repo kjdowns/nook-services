@@ -19,13 +19,20 @@ class Signup extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
+        const {history} = this.props
+        this.setState({
+            username: '',
+            password: '',
+            passwordConfirm: ''
+        })
+        history.push('/')
     }
 
     render(){
         return(
             <div>
                 <h1>Signup Page</h1>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <div>
                         <label>Username: </label>
                         <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />
