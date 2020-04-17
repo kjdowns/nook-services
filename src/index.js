@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Bugs from './pages/Bugs'
 import Fish from './pages/Fish'
 import Login from './pages/Login'
+import Signup from './pages/Signup';
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route exact path="/bugs" component={Bugs} />
       <Route exact path="/fish" component={Fish} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={Signup} />
     </Router>
   </Provider>,
   document.getElementById('root')
