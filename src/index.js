@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './pages/App';
+import Home from './pages/Home';
 import Bugs from './pages/Bugs'
 import Fish from './pages/Fish'
 import Login from './pages/Login'
