@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import { createUser } from '../actions/userActions'
+import { bugData, fishData } from '../data'
 
 class Signup extends Component {
 
@@ -23,7 +24,7 @@ class Signup extends Component {
         event.preventDefault();
         const {history} = this.props
         if (this.state.password === this.state.passwordConfirm) {
-            this.props.createUser({username: this.state.username, password: this.state.password})
+            this.props.createUser({username: this.state.username, password: this.state.password, bugs: bugData, fish: fishData})
         } else {
             console.log("passwords did not match")
         }
