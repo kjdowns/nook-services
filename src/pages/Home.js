@@ -8,10 +8,15 @@ class Home extends Component {
     return (
       <div>
         <h1>Nook Services</h1>
+        {this.props.state.user.username}
         <LinkContainer />
       </div>
     )
   }
 }
 
-export default Home;
+function mapStateToProps(state){
+  return {state: state}
+}
+
+export default connect(mapStateToProps) (Home)

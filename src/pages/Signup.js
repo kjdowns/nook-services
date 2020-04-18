@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import { createUser } from '../actions/userActions'
 
 class Signup extends Component {
 
@@ -20,6 +22,11 @@ class Signup extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         const {history} = this.props
+        if (this.state.password === this.state.passwordConfirm) {
+            this.props.createUser({username: this.state.username, password: this.state.password})
+        } else {
+            console.log("passwords did not match")
+        }
         this.setState({
             username: '',
             password: '',
@@ -55,4 +62,8 @@ class Signup extends Component {
 
 }
 
-export default Signup;
+function mapDispatchToProps(dispatch){
+    return {createUser: (userData) => dispatch(createUser(userData))}
+}
+
+export default connect(null, mapDispatchToProps)(Signup)

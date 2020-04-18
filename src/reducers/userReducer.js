@@ -9,6 +9,7 @@ const userReducer = (state = {
             return {...state, fetching: true}
 
         case "LOAD_USER":
+            console.log(action.user)
             return{...state, user: action.user, fetching: false, loggedIn: true}
 
         default:
