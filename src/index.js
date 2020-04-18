@@ -7,14 +7,14 @@ import Login from './pages/Login'
 import Signup from './pages/Signup';
 
 import {Provider} from 'react-redux'
-import {createStore, applyMiddleware} from 'redux'
+import {createStore, applyMiddleware, compose} from 'redux'
 import thunk from 'redux-thunk'
 import userReducer from './reducers/userReducer'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/NavBar';
 
-const store = createStore(userReducer, applyMiddleware(thunk))
+const store = createStore(userReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))
 
 ReactDOM.render(
   <Provider store={store}>
