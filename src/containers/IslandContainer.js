@@ -6,14 +6,16 @@ class IslandContainer extends Component {
 
     renderIslands = () => {
         return (
-            <IslandCard />
+            this.props.islands.map(island => (
+                <IslandCard key={island.id} name={island.name} rate={island.rate} description={island.description} url={island.url} />
+        ))
         )
     }
 
     render(){
         return(
             <div>
-                <IslandCard />
+                {this.renderIslands()}
             </div>
         )
     }
