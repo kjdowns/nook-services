@@ -20,8 +20,8 @@ class BugCard extends Component {
                 <ul>
                     <li>Location: {this.props.location}</li>
                     <li>Time: {this.props.time}</li>
-                    <li>Months (Northern): {this.props.northMonths.join(', ')}</li>
-                    <li>Months (Southern): {this.props.southMonths.join(', ')}</li>
+                    <li>Months (Northern): {this.props.northMonths}</li>
+                    <li>Months (Southern): {this.props.southMonths}</li>
                 </ul>
             </div>
         )
