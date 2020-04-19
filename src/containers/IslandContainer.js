@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
 
 class IslandContainer extends Component {
 
@@ -12,4 +13,8 @@ class IslandContainer extends Component {
 
 }
 
-export default IslandContainer;
+const mapStateToProps = (state) => {
+    return {islands: state.islands}
+}
+
+export default connect(mapStateToProps) (IslandContainer)
