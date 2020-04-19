@@ -16,7 +16,7 @@ class BugContainer extends Component {
     renderBugsFromData = () => {
         return (
             bugData.map(bug => (
-                <BugCard name={bug.name} location={bug.location} time={bug.time} northMonths={bug.northMonths.join(", ")} southMonths={bug.southMonths.join(", ")} url={bug.url} />
+                <BugCard key={bug.name} name={bug.name} location={bug.location} time={bug.time} northMonths={bug.northMonths.join(", ")} southMonths={bug.southMonths.join(", ")} url={bug.url} />
             ))
         )
     }
@@ -24,7 +24,7 @@ class BugContainer extends Component {
     renderBugsFromUser = () => {
         return (
             this.props.bugs.map(bug => (
-                <BugCard name={bug.name} location={bug.location} time={bug.time} northMonths={bug.northMonths} southMonths={bug.southMonths} url={bug.url} />
+                <BugCard key={bug.id} name={bug.name} location={bug.location} time={bug.time} northMonths={bug.northMonths} southMonths={bug.southMonths} url={bug.url} />
             ))
         )
     }
