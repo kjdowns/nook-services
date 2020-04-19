@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+
 import IslandContainer from '../containers/IslandContainer'
+import { fetchIslands } from '../actions/islandActions'
 
 class MysteryIsland extends Component {
+
+    componentDidMount(){
+        this.props.fetchIslands()
+      }
 
     render(){
         return(
@@ -14,4 +21,8 @@ class MysteryIsland extends Component {
 
 }
 
-export default MysteryIsland;
+const mapDispatchToProps = dispatch => {
+    return {fetchIslands: () => {dispatch(fetchIslands())}}
+}
+
+export default connect(null,mapDispatchToProps) (MysteryIsland)

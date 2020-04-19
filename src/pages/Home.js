@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import LinkContainer from '../containers/LinkContainer'
-import {connect} from 'react-redux'
-import { fetchIslands } from '../actions/islandActions';
 
 class Home extends Component {
-
-  componentDidMount(){
-    this.props.fetchIslands()
-  }
 
   render() {
     return (
@@ -19,8 +13,4 @@ class Home extends Component {
   }
 }
 
-const mapDispatchToProps = dispatch => {
-    return {fetchIslands: () => {dispatch(fetchIslands())}}
-}
-
-export default connect(null, mapDispatchToProps) (Home)
+export default Home
