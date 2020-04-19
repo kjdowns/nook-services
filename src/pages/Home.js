@@ -5,6 +5,10 @@ import { fetchIslands } from '../actions/islandActions';
 
 class Home extends Component {
 
+  componentDidMount(){
+    this.props.fetchIslands()
+  }
+
   render() {
     return (
       <div>
