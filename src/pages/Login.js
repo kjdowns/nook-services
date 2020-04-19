@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import { fetchUser } from '../actions/userActions'
 
 class Login extends Component {
 
@@ -19,6 +21,7 @@ class Login extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         const {history} = this.props
+        this.props.fetchUser(this.state.username)
         this.setState({
             username: '',
             password: '',
@@ -50,4 +53,8 @@ class Login extends Component {
 
 }
 
-export default Login
+function mapDispatchToProps(dispatch){
+    return {fetchUser: (username) => dispatch(fetchUser(username))}
+}
+
+export default connect(null, mapDispatchToProps) (Login)
