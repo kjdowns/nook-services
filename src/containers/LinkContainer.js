@@ -9,6 +9,7 @@ class LinkContainer extends Component {
                 <LinkCard name={"bugs"} />
                 <LinkCard name={"fish"} />
                 <LinkCard name={"islands"} />
+                <LinkCard name={"turnips"} />
             </div>
         )
     }

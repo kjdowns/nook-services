@@ -9,6 +9,7 @@ const Navbar = () =>
             <NavLink to="/bugs" exact >Bugs </NavLink>
             <NavLink to="/fish" exact >Fish </NavLink>
             <NavLink to="/islands" exact>Islands </NavLink>
+            <NavLink to="/turnips" exact>Turnips </NavLink>
         </div>
 
 export default Navbar;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class StalkMarket extends Component {
+class Turnips extends Component {
 
     render(){
         return(
@@ -10,4 +10,4 @@ class StalkMarket extends Component {
     
 }
 
-export default StalkMarket
+export default Turnips
