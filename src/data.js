@@ -1380,7 +1380,15 @@ export const roses = [
     flowerIcons.roses.gold
 ]
 
-export const tulips = []
+export const tulips = [
+    flowerIcons.tulips.red,
+    flowerIcons.tulips.yellow,
+    flowerIcons.tulips.white,
+    flowerIcons.tulips.orange,
+    flowerIcons.tulips.pink,
+    flowerIcons.tulips.black,
+    flowerIcons.tulips.purple
+]
 
 export const pansies = []
 

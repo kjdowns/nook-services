@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {flowerIcons, cosmos, roses} from '../data'
+import {flowerIcons, cosmos, roses, tulips} from '../data'
 import FlowerCard from '../components/FlowerCard'
 
 class Flowers extends Component {
@@ -21,12 +21,12 @@ class Flowers extends Component {
                 </div>
                     <FlowerCard name={"Cosmos"} colors={cosmos} />
                     <FlowerCard name={"Roses"} colors={roses} />
-                    {/* <FlowerCard name={""} colors={} />
+                    <FlowerCard name={"Tulips"} colors={tulips} />
                     <FlowerCard name={""} colors={} />
                     <FlowerCard name={""} colors={} />
                     <FlowerCard name={""} colors={} />
                     <FlowerCard name={""} colors={} />
-                    <FlowerCard name={""} colors={} /> */}
+                    <FlowerCard name={""} colors={} />
             </div>
         )
     }
