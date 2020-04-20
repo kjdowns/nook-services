@@ -1286,3 +1286,77 @@ export const fishData = [
     }
 ]
 
+export const flowerIcons = {
+    cosmos: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-red_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010628",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-yellow_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010649",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-white_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010606",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-orange_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010731",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-pink_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010708",
+        black: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-black_cosmos-icon.png/revision/latest/scale-to-width-down/40?cb=20200414010804"
+    },
+    roses: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/94/NH-red_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141923",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/67/NH-yellow_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407142014",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-white_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141957",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-orange_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141838",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-pink_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141856",
+        black: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-black_roses-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014535",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-purple_roses-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014508",
+        blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-blue_roses-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014604",
+        gold: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-gold_rose_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141818"
+    },
+    tulips: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/94/NH-red_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014822",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/07/NH-yellow_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014848",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/NH-white_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014907",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-orange_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414015000",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-pink_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014939",
+        black: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2e/NH-black_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414015020",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-purple_tulips-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014308",
+    },
+    pansies: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-red_pansy_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141918",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/96/NH-yellow_pansies-icon.png/revision/latest/scale-to-width-down/40?cb=20200414012157",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-white_pansy_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141949",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-orange_pansy_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141833",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/83/NH-purple_pansies-icon.png/revision/latest/scale-to-width-down/40?cb=20200414012319",
+        blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-blue_pansy_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141809"
+    },
+    lilies: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-red_lily_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141910",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-yellow_lily_icon.png/revision/latest/scale-to-width-down/40?cb=20200407142003",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-white_lily_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141938",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3e/NH-orange_lily_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141828",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-pink_lilies-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014651",
+        black: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/84/NH-black_lilies-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014729"
+    },
+    windflowers: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-red_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004717",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/54/NH-white_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004536",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/60/NH-orange_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004736",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-pink_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004847",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6c/NH-purple_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004913",
+        blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9c/NH-blue_windflowers-icon.png/revision/latest/scale-to-width-down/40?cb=20200414004935"
+    },
+    hyacinths: {
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-red_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141905",
+        yellow: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-yellow_hyacinths-icon.png/revision/latest/scale-to-width-down/40?cb=20200414011344",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8b/NH-white_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141932",
+        orange: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-orange_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141822",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-pink_hyacinths-icon.png/revision/latest/scale-to-width-down/40?cb=20200414011630",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a2/NH-purple_hyacinths-icon.png/revision/latest/scale-to-width-down/40?cb=20200328195547",
+        blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/NH-blue_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141804"
+    },
+    mums: {
+        red: "",
+        yellow: "",
+        white: "",
+        orange: "",
+        pink: "",
+        black: "",
+        purple: "",
+        blue: "",
+        gold: ""
+    }
+}
