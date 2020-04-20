@@ -102,7 +102,7 @@ export const bugData = [
         time: "7 PM - 4 AM",
         northMonths: ["All Year"],
         southMonths: ["All Year"],
-        url: ""
+        url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-moth.png/revision/latest/scale-to-width-down/64?cb=20200401005428"
     },
     {
         name: "Atlas moth",
