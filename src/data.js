@@ -1408,7 +1408,14 @@ export const lilies = [
     flowerIcons.lilies.black
 ]
 
-export const windflowers = []
+export const windflowers = [
+    flowerIcons.windflowers.red,
+    flowerIcons.windflowers.white,
+    flowerIcons.windflowers.orange,
+    flowerIcons.windflowers.pink,
+    flowerIcons.windflowers.purple,
+    flowerIcons.windflowers.blue
+]
 
 export const hyacinths = []
 
