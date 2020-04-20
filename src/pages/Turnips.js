@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TurnipSpike from '../components/TurnipSpike'
 
 class Turnips extends Component {
 
@@ -31,6 +32,18 @@ class Turnips extends Component {
                         The 4 patterns are as follows:
                     </p>
                 </div>
+                <div>
+                    <TurnipSpike type={"Random"} url="https://i2.wp.com/nintygamer.com/wp-content/uploads/2020/04/acnh-turnip-prices-random.png?resize=768%2C323&ssl=1" />
+                    <p>
+                        In a Random Pattern, your maximum profit will only ever be 140% of whatever your base price was. Your best bet here 
+                        (if you don’t have any friends whose island you can visit) is to sell the moment it is higher than your buying price. 
+                        Unless of course, RNG is not in your favor and during the Increasing Phase you always get 90% of your base price. 
+                        But that likelihood is low. You are much more likely to either break even or make a semi-decent profit.
+                    </p>
+                </div>
+                <TurnipSpike />
+                <TurnipSpike />
+                <TurnipSpike />
             </div>
         )
     }
