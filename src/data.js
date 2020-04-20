@@ -1399,7 +1399,14 @@ export const pansies = [
     flowerIcons.pansies.blue
 ]
 
-export const lilies = []
+export const lilies = [
+    flowerIcons.lilies.red,
+    flowerIcons.lilies.yellow,
+    flowerIcons.lilies.white,
+    flowerIcons.lilies.orange,
+    flowerIcons.lilies.pink,
+    flowerIcons.lilies.black
+]
 
 export const windflowers = []
 
