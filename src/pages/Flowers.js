@@ -1,9 +1,20 @@
 import React, { Component } from 'react'
 import {flowerIcons} from '../data'
+import FlowerCard from '../components/FlowerCard'
 
 class Flowers extends Component {
     
     render(){
+
+        let cosmos = [
+            flowerIcons.cosmos.red,
+            flowerIcons.cosmos.yellow,
+            flowerIcons.cosmos.white,
+            flowerIcons.cosmos.orange,
+            flowerIcons.cosmos.pink,
+            flowerIcons.cosmos.black
+        ]
+
         return (
             <div>
                 <h1>Flowers Page</h1>
@@ -16,49 +27,7 @@ class Flowers extends Component {
                     through selective breeding. 
                 </p>
                 <div>
-                    <h2>Cosmos</h2>
-                    <img src={flowerIcons.cosmos.red} />
-                    <img src={flowerIcons.cosmos.yellow} />
-                    <img src={flowerIcons.cosmos.white} />
-                    <img src={flowerIcons.cosmos.orange} />
-                    <img src={flowerIcons.cosmos.pink} />
-                    <img src={flowerIcons.cosmos.black} />
-                </div>
-                <div>
-                    <h2>Roses</h2>
-                    <img src={flowerIcons.roses.red} />
-                    <img src={flowerIcons.roses.yellow} />
-                    <img src={flowerIcons.roses.white} />
-                    <img src={flowerIcons.roses.orange} />
-                    <img src={flowerIcons.roses.pink} />
-                    <img src={flowerIcons.roses.black} />
-                    <img src={flowerIcons.roses.purple} />
-                    <img src={flowerIcons.roses.blue} />
-                    <img src={flowerIcons.roses.gold} />
-                </div>
-                <div>
-                    <h2>Tulips</h2>
-                    
-                </div>
-                <div>
-                    <h2>Pansies</h2>
-                    
-                </div>
-                <div>
-                    <h2>Lilies</h2>
-                    
-                </div>
-                <div>
-                    <h2>Windflowers</h2>
-                    
-                </div>
-                <div>
-                    <h2>Hyacinths</h2>
-                    
-                </div>
-                <div>
-                    <h2>Mums</h2>
-                    
+                    <FlowerCard name={"Cosmos"} colors={cosmos} />
                 </div>
             </div>
         )

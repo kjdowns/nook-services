@@ -5,7 +5,7 @@ class FlowerCard extends Component {
     renderColorStrip = () => {
         return (
             <div>
-            {this.props.colors.map(color = (
+            {this.props.colors.map(color => (
                     <img src={color} />
             ))}
             </div>
@@ -15,6 +15,7 @@ class FlowerCard extends Component {
     render(){
         return (
             <div>
+                <h2>{this.props.name}</h2>
                 <p>{this.props.name} are available in the colors below: </p>
                 {this.renderColorStrip()}
                 <p>
