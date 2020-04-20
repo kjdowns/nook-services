@@ -6,7 +6,7 @@ class FlowerCard extends Component {
         return (
             <div>
             {this.props.colors.map(color => (
-                    <img src={color} />
+                    <img height="40" width="40" src={color} />
             ))}
             </div>
         )

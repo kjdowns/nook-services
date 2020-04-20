@@ -1349,12 +1349,12 @@ export const flowerIcons = {
         blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/NH-blue_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141804"
     },
     mums: {
-        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-red_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120303",
-        yellow: "https://img.game8.co/3239172/2e3a8b92167d0d36e7d592f344652a0f.png/show",
-        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-white_mum_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141942",
-        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-pink_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120321",
-        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-purple_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120311",
-        green: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-green_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014344"
+        red: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h31.jpg",
+        yellow: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h33.jpg",
+        white: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h32.jpg",
+        pink: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h34.jpg",
+        purple: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h35.jpg",
+        green: "https://gamewith-en.akamaized.net/img/4ccf03e169ae3faa596c3ca110fca75a.jpg"
     },
     lilyOfTheValley: "https://gamewith-en.akamaized.net/img/aa19c92b102034b837bea87ccf0468b7.jpg"
 }
