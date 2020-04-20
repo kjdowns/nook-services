@@ -41,7 +41,14 @@ class Turnips extends Component {
                         But that likelihood is low. You are much more likely to either break even or make a semi-decent profit.
                     </p>
                 </div>
-                <TurnipSpike />
+                <div>
+                    <TurnipSpike type={"Decreasing"} url={"https://i0.wp.com/nintygamer.com/wp-content/uploads/2020/04/acnh-turnip-prices-decreasing.png?resize=768%2C327&ssl=1"} />
+                    <p>
+                        This is the worst pattern of the four and if you find you are caught in this your best bet is to either sell immediately 
+                        or find a friend and sell on their island. Every day you wait, you will lose more and more profit. Monday morning's price 
+                        will be 85%-90% of your Base Rate and it will decrease 3%-5% each day.
+                    </p>
+                </div>
                 <TurnipSpike />
                 <TurnipSpike />
             </div>
