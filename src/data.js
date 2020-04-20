@@ -1417,6 +1417,14 @@ export const windflowers = [
     flowerIcons.windflowers.blue
 ]
 
-export const hyacinths = []
+export const hyacinths = [
+    flowerIcons.hyacinths.red,
+    flowerIcons.hyacinths.yellow,
+    flowerIcons.hyacinths.white,
+    flowerIcons.hyacinths.orange,
+    flowerIcons.hyacinths.pink,
+    flowerIcons.hyacinths.purple,
+    flowerIcons.hyacinths.blue
+]
 
 export const mums = []

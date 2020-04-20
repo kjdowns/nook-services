@@ -25,7 +25,7 @@ class Flowers extends Component {
                     <FlowerCard name={"Pansies"} colors={pansies} />
                     <FlowerCard name={"Lilies"} colors={lilies} />
                     <FlowerCard name={"Windflowers"} colors={windflowers} />
-                    <FlowerCard name={""} colors={} />
+                    <FlowerCard name={"Hyacinths"} colors={hyacinths} />
                     <FlowerCard name={""} colors={} />
             </div>
         )
