@@ -50,7 +50,62 @@ class Flowers extends Component {
                     </div>
                     <div>
                         <FlowerCard name={"Roses"} colors={roses} />
-                        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.roses.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.roses.purple} /> <br/> Purple </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
+                                    <td><img src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.roses.purple} /> <br/> Purple </td>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.roses.blue} /> <br/> Blue </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
+                                    <td><img src={flowerIcons.roses.red} /> <br/> Gold Can </td>
+                                    <td><img src={flowerIcons.roses.gold} /> <br/> Gold </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     
                     <FlowerCard name={"Tulips"} colors={tulips} />
