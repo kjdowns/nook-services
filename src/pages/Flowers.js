@@ -1,19 +1,10 @@
 import React, { Component } from 'react'
-import {flowerIcons} from '../data'
+import {flowerIcons, cosmos} from '../data'
 import FlowerCard from '../components/FlowerCard'
 
 class Flowers extends Component {
     
     render(){
-
-        let cosmos = [
-            flowerIcons.cosmos.red,
-            flowerIcons.cosmos.yellow,
-            flowerIcons.cosmos.white,
-            flowerIcons.cosmos.orange,
-            flowerIcons.cosmos.pink,
-            flowerIcons.cosmos.black
-        ]
 
         return (
             <div>

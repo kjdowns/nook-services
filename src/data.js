@@ -1358,3 +1358,12 @@ export const flowerIcons = {
     },
     lilyOfTheValley: "https://gamewith-en.akamaized.net/img/aa19c92b102034b837bea87ccf0468b7.jpg"
 }
+
+export const cosmos = [
+    flowerIcons.cosmos.red,
+    flowerIcons.cosmos.yellow,
+    flowerIcons.cosmos.white,
+    flowerIcons.cosmos.orange,
+    flowerIcons.cosmos.pink,
+    flowerIcons.cosmos.black
+]
