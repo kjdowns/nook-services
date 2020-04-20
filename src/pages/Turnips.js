@@ -97,7 +97,10 @@ class Turnips extends Component {
                         </li>
                     </ul>
                 </div>
-                
+                <footer>
+                    This information was compiled by /u/Edricus with datamining by Ninji on April 1st, 2020. The doc on the original findings 
+                    is <a href="https://docs.google.com/document/d/1bSVNpOnH_dKxkAGr718-iqh8s8Z0qQ54L-0mD-lbrXo/edit">here</a>.
+                </footer>
             </div>
         )
     }
