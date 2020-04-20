@@ -49,7 +49,28 @@ class Turnips extends Component {
                         will be 85%-90% of your Base Rate and it will decrease 3%-5% each day.
                     </p>
                 </div>
-                <TurnipSpike />
+                <div>
+                    <TurnipSpike type={"Small Spike"} url={"https://i0.wp.com/nintygamer.com/wp-content/uploads/2020/04/acnh-turnip-prices-camel-hump.png?resize=768%2C328&ssl=1"} />
+                    <p>
+                        This isn’t as exciting as the Large Spike pattern but you will be happy to be in this one as they share similarities. 
+                        When the second phase of this pattern kicks in players can expect profit. This pattern contains three main phases:
+                    </p>
+                    <ul>
+                        <li>
+                            Decreasing Phase 1 (may not occur): 0-7 half-days in length. 
+                            The Base rate is set to be 40%-90% of the original Base Rate, 
+                            then decreasing 3%-5% every half-day of this phase.
+                        </li>
+                        <li>
+                            Increasing Phase: always 5 half-days. Half-Day 1 & 2's Base Rate is set to be between 90% and 140%. 
+                            For half-day 3-5, the Base Rate is set to be between 140% and 200%. All 3 of these days have the 
+                            same potential earnings of anywhere between 1.4x and 2x your base price.
+                        </li>
+                        <li>
+                            Decreasing Phase 2 (may not occur): the reminder of the week. Same as decreasing phase 1.
+                        </li>
+                    </ul>
+                </div>
                 <TurnipSpike />
             </div>
         )
