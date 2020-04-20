@@ -1349,14 +1349,11 @@ export const flowerIcons = {
         blue: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/NH-blue_hyacinth_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141804"
     },
     mums: {
-        red: "",
-        yellow: "",
-        white: "",
-        orange: "",
-        pink: "",
-        black: "",
-        purple: "",
-        blue: "",
-        gold: ""
+        red: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-red_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120303",
+        yellow: "https://img.game8.co/3239172/2e3a8b92167d0d36e7d592f344652a0f.png/show",
+        white: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-white_mum_icon.png/revision/latest/scale-to-width-down/40?cb=20200407141942",
+        pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-pink_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120321",
+        purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-purple_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120311",
+        green: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-green_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014344"
     }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {flowerIcons} from '../data'
 
 class Flowers extends Component {
     
@@ -16,6 +17,48 @@ class Flowers extends Component {
                 </p>
                 <div>
                     <h2>Cosmos</h2>
+                    <img src={flowerIcons.cosmos.red} />
+                    <img src={flowerIcons.cosmos.yellow} />
+                    <img src={flowerIcons.cosmos.white} />
+                    <img src={flowerIcons.cosmos.orange} />
+                    <img src={flowerIcons.cosmos.pink} />
+                    <img src={flowerIcons.cosmos.black} />
+                </div>
+                <div>
+                    <h2>Roses</h2>
+                    <img src={flowerIcons.roses.red} />
+                    <img src={flowerIcons.roses.yellow} />
+                    <img src={flowerIcons.roses.white} />
+                    <img src={flowerIcons.roses.orange} />
+                    <img src={flowerIcons.roses.pink} />
+                    <img src={flowerIcons.roses.black} />
+                    <img src={flowerIcons.roses.purple} />
+                    <img src={flowerIcons.roses.blue} />
+                    <img src={flowerIcons.roses.gold} />
+                </div>
+                <div>
+                    <h2>Tulips</h2>
+                    
+                </div>
+                <div>
+                    <h2>Pansies</h2>
+                    
+                </div>
+                <div>
+                    <h2>Lilies</h2>
+                    
+                </div>
+                <div>
+                    <h2>Windflowers</h2>
+                    
+                </div>
+                <div>
+                    <h2>Hyacinths</h2>
+                    
+                </div>
+                <div>
+                    <h2>Mums</h2>
+                    
                 </div>
             </div>
         )
