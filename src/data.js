@@ -1355,5 +1355,6 @@ export const flowerIcons = {
         pink: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-pink_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120321",
         purple: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-purple_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200407120311",
         green: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-green_mums-icon.png/revision/latest/scale-to-width-down/40?cb=20200414014344"
-    }
+    },
+    lilyOfTheValley: "https://gamewith-en.akamaized.net/img/aa19c92b102034b837bea87ccf0468b7.jpg"
 }
