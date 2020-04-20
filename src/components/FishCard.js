@@ -2,6 +2,16 @@ import React, { Component } from 'react'
 
 class FishCard extends Component {
 
+    handleClick = event => {
+        if (event.target.className === "clicked") {
+            event.target.style = "background-color:grey"
+            event.target.className = "unclicked"
+        } else {
+            event.target.style = "background-color:green"
+            event.target.className = "clicked"
+        }
+    }
+
     render(){
         return (
             <div>
