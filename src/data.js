@@ -1367,3 +1367,27 @@ export const cosmos = [
     flowerIcons.cosmos.pink,
     flowerIcons.cosmos.black
 ]
+
+export const roses = [
+    flowerIcons.roses.red,
+    flowerIcons.roses.yellow,
+    flowerIcons.roses.white,
+    flowerIcons.roses.orange,
+    flowerIcons.roses.pink,
+    flowerIcons.roses.black,
+    flowerIcons.roses.purple,
+    flowerIcons.roses.blue,
+    flowerIcons.roses.gold
+]
+
+export const tulips = []
+
+export const pansies = []
+
+export const lilies = []
+
+export const windflowers = []
+
+export const hyacinths = []
+
+export const mums = []
