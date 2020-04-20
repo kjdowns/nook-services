@@ -2,10 +2,27 @@ import React, { Component } from 'react'
 
 class FlowerCard extends Component {
 
+    renderColorStrip = () => {
+        return (
+            <div>
+            {this.props.colors.map(color = (
+                    <img src={color} />
+            ))}
+            </div>
+        )
+    }
+
     render(){
         return (
             <div>
-                
+                <p>{this.props.name} are available in the colors below: </p>
+                {this.renderColorStrip()}
+                <p>
+                    This chart outlines the most accurate breeding patterns for all available colors.
+                    The chart assumes that base color flowers were grown from seeds, or in the case of
+                    hybrid colors, bred from seed flowers. Flowers found on Mystery Island Tours or grown naturally
+                    on a player's island may have different genetics and therefore may produce different results.
+                </p>
             </div>
         )
     }
