@@ -175,8 +175,41 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
+                    <div>
+                        <FlowerCard name={"Lilies"} colors={lilies} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.lilies.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.black} /> <br/> Black </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.lilies.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.lilies.pink} /> <br/> Pink </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     
-                    <FlowerCard name={"Lilies"} colors={lilies} />
                     <FlowerCard name={"Windflowers"} colors={windflowers} />
                     <FlowerCard name={"Hyacinths"} colors={hyacinths} />
                     <FlowerCard name={"Mums"} colors={mums} />
