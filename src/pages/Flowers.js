@@ -107,13 +107,63 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
+                    <div>
+                        <FlowerCard name={"Tulips"} colors={tulips} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.tulips.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.tulips.black} /> <br/> Black </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.tulips.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.tulips.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.tulips.purple} /> <br/> Purple </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     
-                    <FlowerCard name={"Tulips"} colors={tulips} />
                     <FlowerCard name={"Pansies"} colors={pansies} />
                     <FlowerCard name={"Lilies"} colors={lilies} />
                     <FlowerCard name={"Windflowers"} colors={windflowers} />
                     <FlowerCard name={"Hyacinths"} colors={hyacinths} />
                     <FlowerCard name={"Mums"} colors={mums} />
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> Parent 1 </th>
+                                <th> Parent 2 </th>
+                                <th> Hybrid Child </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src={flowerIcons} /> <br/>  </td>
+                                <td><img src={flowerIcons} /> <br/>  </td>
+                                <td><img src={flowerIcons} /> <br/>  </td>
+                            </tr>
+                        </tbody>
+                    </table>
             </div>
         )
     }
