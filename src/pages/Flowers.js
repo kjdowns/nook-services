@@ -19,8 +19,40 @@ class Flowers extends Component {
                         through selective breeding. 
                     </p>
                 </div>
-                    <FlowerCard name={"Cosmos"} colors={cosmos} />
-                    <FlowerCard name={"Roses"} colors={roses} />
+                    <div>
+                        <FlowerCard name={"Cosmos"} colors={cosmos} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.cosmos.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.cosmos.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.cosmos.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.cosmos.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.cosmos.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.cosmos.black} /> <br/> Black </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <FlowerCard name={"Roses"} colors={roses} />
+                        
+                    </div>
+                    
                     <FlowerCard name={"Tulips"} colors={tulips} />
                     <FlowerCard name={"Pansies"} colors={pansies} />
                     <FlowerCard name={"Lilies"} colors={lilies} />
