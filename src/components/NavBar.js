@@ -8,6 +8,7 @@ const Navbar = () =>
             <NavLink to="/" exact >Home </NavLink>
             <NavLink to="/bugs" exact >Bugs </NavLink>
             <NavLink to="/fish" exact >Fish </NavLink>
+            <NavLink to="/flowers" exact >Flowers </NavLink>
             <NavLink to="/islands" exact>Islands </NavLink>
             <NavLink to="/turnips" exact>Turnips </NavLink>
         </div>

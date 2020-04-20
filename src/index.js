@@ -7,6 +7,7 @@ import MysteryIslands from './pages/MysteryIslands';
 import Login from './pages/Login'
 import Signup from './pages/Signup';
 import Turnips from './pages/Turnips';
+import Flowers from './pages/Flowers'
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware, compose} from 'redux'
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/bugs" component={Bugs} />
       <Route exact path="/fish" component={Fish} />
+      <Route exact path='/flowers' component={Flowers} />
       <Route exact path="/islands" component={MysteryIslands} />
       <Route exact path="/turnips" component={Turnips} />
       <Route exact path="/login" component={Login} />
