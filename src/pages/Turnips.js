@@ -71,7 +71,33 @@ class Turnips extends Component {
                         </li>
                     </ul>
                 </div>
-                <TurnipSpike />
+                <div>
+                    <TurnipSpike type={"Large Spike"} url={"https://i1.wp.com/nintygamer.com/wp-content/uploads/2020/04/acnh-turnip-prices-big-spike.png?resize=768%2C330&ssl=1"} />
+                    <p>
+                        At first, this may look like a decreasing pattern. But keep an eye out! Remember that a decreasing pattern will keep decreasing 
+                        every day. If at any point your decreasing pattern increases you may be looking at a large spike pattern. More importantly, if 
+                        the 3rd half day after your first increase is greater than or equal to 2X your base price then you are definitely in a large 
+                        spike. Keep a careful eye out for massive increases and remember that your third one is going to be the best one! This Pattern 
+                        follows 4 phases in order:
+                    </p>
+                    <ul>
+                        <li>
+                            Steady Decreasing Phase: between 2 and 8 half days. The first half-day is 85%-90% of Base Price. Every half-day after 
+                            is an additional decrease of 3%-5%.
+                        </li>
+                        <li>
+                            Sharp Increasing Phase: always 3 half days. Half-day 1 is 90%-140% of Base Rate. Half-day 2 is 140%-200% of Base Rare. 
+                            Half-Day 3 is 200%-600% of Base Rate.
+                        </li>
+                        <li>
+                            Sharp Decreasing Phase: always 2 half days. Half-day 1 is 140%-200% of Base Rate. Helf-day 2 is 90%-140% of Base Rate
+                        </li>
+                        <li>
+                            Random Decreasing Phase (may not occur): the remainder of the week every day to be 40%-90% of Base Rate.
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
         )
     }
