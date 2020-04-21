@@ -297,25 +297,50 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
-                    
-                    <FlowerCard name={"Mums"} colors={mums} />
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th> Parent 1 </th>
-                                <th> Parent 2 </th>
-                                <th> Hybrid Child </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src={flowerIcons} /> <br/>  </td>
-                                <td><img src={flowerIcons} /> <br/>  </td>
-                                <td><img src={flowerIcons} /> <br/>  </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div>
+                        <FlowerCard name={"Mums"} colors={mums} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.mums.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                    <td><img height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
             </div>
         )
     }
