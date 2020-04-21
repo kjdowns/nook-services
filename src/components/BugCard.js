@@ -1,14 +1,22 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import { updateBug, fetchUser } from '../actions/userActions'
 
 class BugCard extends Component {
 
     handleClick = event => {
+        let checked;
         if (event.target.className === "clicked") {
             event.target.style = "background-color:grey"
             event.target.className = "unclicked"
+            checked = false;
         } else {
             event.target.style = "background-color:green"
             event.target.className = "clicked"
+            checked = true;
+        }
+        if (this.props.loggedIn) {
+            this.props.updateBug({id: this.props.id, checked: checked})
         }
     }
 
@@ -43,4 +51,14 @@ class BugCard extends Component {
 
 }
 
-export default BugCard
+const mapStateToProps = (state) => {
+    return {loggedIn: state.loggedIn}
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        updateBug: (bugData) => dispatch(updateBug(bugData))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps) (BugCard)

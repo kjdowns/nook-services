@@ -39,6 +39,7 @@ export function updateBug(bugData){
         }
         fetch(`http://localhost:3001/bugs/${bugData.id}`, configObj)
         .then(response => response.json())
-        .then(data => dispatch({type: 'BUG_UPDATED'}))
+        .then(user => dispatch({type: 'LOAD_USER', user}))
+        .catch(error => console.log(error))
     }
 }
