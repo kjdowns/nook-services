@@ -209,8 +209,61 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
+                    <div>
+                        <FlowerCard name={"Windflowers"} colors={windflowers} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.windflowers.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.windflowers.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     
-                    <FlowerCard name={"Windflowers"} colors={windflowers} />
                     <FlowerCard name={"Hyacinths"} colors={hyacinths} />
                     <FlowerCard name={"Mums"} colors={mums} />
 
