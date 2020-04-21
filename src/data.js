@@ -1356,7 +1356,8 @@ export const flowerIcons = {
         purple: "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/h35.jpg",
         green: "https://gamewith-en.akamaized.net/img/4ccf03e169ae3faa596c3ca110fca75a.jpg"
     },
-    lilyOfTheValley: "https://gamewith-en.akamaized.net/img/aa19c92b102034b837bea87ccf0468b7.jpg"
+    lilyOfTheValley: "https://gamewith-en.akamaized.net/img/aa19c92b102034b837bea87ccf0468b7.jpg",
+    wateringCan: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Golden_watering_can.png/revision/latest/scale-to-width-down/40?cb=20200326052107"
 }
 
 export const cosmos = [

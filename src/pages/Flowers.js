@@ -101,7 +101,7 @@ class Flowers extends Component {
                                 </tr>
                                 <tr>
                                     <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Gold Can </td>
+                                    <td><img src={flowerIcons.wateringCan} /> <br/> Gold Can </td>
                                     <td><img src={flowerIcons.roses.gold} /> <br/> Gold </td>
                                 </tr>
                             </tbody>
@@ -341,6 +341,9 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
+                <footer>
+                    Note: This data was datamined by Aeter & Paleh. Tables based on visual guide made by peach-n-key
+                </footer>
             </div>
         )
     }
