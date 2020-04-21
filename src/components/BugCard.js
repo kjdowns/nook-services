@@ -20,6 +20,24 @@ class BugCard extends Component {
         }
     }
 
+    setStyle = () => {
+        if (this.props.loggedIn) {
+            if (this.props.checked) {
+                return (
+                    {backgroundColor: 'green'}
+                )
+            } else {
+                return (
+                    {backgroundColor: 'grey'}
+                )
+            }
+        } else {
+            return (
+                {backgroundColor: 'grey'}
+            )
+        }
+    }
+
     render(){
         return (
             <div>
@@ -36,7 +54,7 @@ class BugCard extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src={this.props.url} style={{backgroundColor: 'grey'}} height="64" width="64" className="unclicked" onClick={this.handleClick}/></td>
+                            <td><img src={this.props.url} style={this.setStyle()} height="64" width="64" className="unclicked" onClick={this.handleClick}/></td>
                             <td> {this.props.name} </td>
                             <td> {this.props.location} </td>
                             <td> {this.props.time} </td>

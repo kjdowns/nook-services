@@ -24,7 +24,7 @@ class BugContainer extends Component {
     renderBugsFromUser = () => {
         return (
             this.props.bugs.map(bug => (
-                <BugCard key={bug.id} id={bug.id} name={bug.name} location={bug.location} time={bug.time} northMonths={bug.months_north} southMonths={bug.months_south} url={bug.url} />
+                <BugCard key={bug.id} id={bug.id} checked={bug.checked} name={bug.name} location={bug.location} time={bug.time} northMonths={bug.months_north} southMonths={bug.months_south} url={bug.url} />
             ))
         )
     }
