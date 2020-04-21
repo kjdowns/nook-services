@@ -263,8 +263,41 @@ class Flowers extends Component {
                             </tbody>
                         </table>
                     </div>
+                    <div>
+                        <FlowerCard name={"Hyacinths"} colors={hyacinths} />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> Parent 1 </th>
+                                    <th> Parent 2 </th>
+                                    <th> Hybrid Child </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src={flowerIcons.hyacinths.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.hyacinths.yellow} /> <br/> Yellow </td>
+                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.hyacinths.red} /> <br/> Red </td>
+                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.hyacinths.pink} /> <br/> Pink </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img src={flowerIcons.hyacinths.blue} /> <br/> Blue </td>
+                                </tr>
+                                <tr>
+                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                    <td><img src={flowerIcons.hyacinths.purple} /> <br/> Purple </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     
-                    <FlowerCard name={"Hyacinths"} colors={hyacinths} />
                     <FlowerCard name={"Mums"} colors={mums} />
 
                     <table>
