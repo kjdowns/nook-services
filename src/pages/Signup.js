@@ -33,7 +33,7 @@ class Signup extends Component {
             password: '',
             passwordConfirm: ''
         })
-        history.push('/')
+        history.push("/")
     }
 
     render(){
