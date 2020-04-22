@@ -43,3 +43,21 @@ export function updateBug(bugData){
         .catch(error => console.log(error))
     }
 }
+
+export function updateFish(fishData){
+    return (dispatch) => {
+        dispatch({type: 'START_FISH_UPDATE'})
+        let configObj = {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json" 
+            },
+            body: JSON.stringify(fishData)
+        }
+        fetch(`http://localhost:3001/fish/${fishData.id}`, configObj)
+        .then(response => response.json())
+        .then(user => dispatch({type: 'LOAD_USER', user}))
+        .catch(error => console.log(error))
+    }
+}

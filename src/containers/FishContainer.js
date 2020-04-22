@@ -24,7 +24,7 @@ class FishContainer extends Component {
     renderFishFromUser = () => {
         return (
             this.props.fish.map(fish => (
-                <FishCard key={fish.id} name={fish.name} location={fish.location} time={fish.time} northMonths={fish.months_north} southMonths={fish.months_south} url={fish.url} />
+                <FishCard key={fish.id} id={fish.id} checked={fish.checked} name={fish.name} location={fish.location} time={fish.time} northMonths={fish.months_north} southMonths={fish.months_south} url={fish.url} />
             ))
         )
     }

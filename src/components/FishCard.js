@@ -1,14 +1,38 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux';
+import {updateFish} from '../actions/userActions'
 
 class FishCard extends Component {
 
     handleClick = event => {
+        let checked;
         if (event.target.className === "clicked") {
-            event.target.style = "background-color:grey"
             event.target.className = "unclicked"
+            checked = false;
         } else {
-            event.target.style = "background-color:green"
             event.target.className = "clicked"
+            checked = true;
+        }
+        if (this.props.loggedIn) {
+            this.props.updateFish({id: this.props.id, checked: checked})
+        }
+    }
+
+    setClassName = () => {
+        if (this.props.loggedIn) {
+            if (this.props.checked) {
+                return (
+                    "clicked"
+                )
+            } else {
+                return (
+                    "unclicked"
+                )
+            }
+        } else {
+            return (
+                "unclicked"
+            )
         }
     }
 
@@ -28,7 +52,7 @@ class FishCard extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src={this.props.url} style={{backgroundColor: 'grey'}} height="64" width="64" className="unclicked" onClick={this.handleClick}/></td>
+                            <td><img src={this.props.url} height="64" width="64" className={this.setClassName()} onClick={this.handleClick}/></td>
                             <td> {this.props.name} </td>
                             <td> {this.props.location} </td>
                             <td> {this.props.time} </td>
@@ -43,4 +67,14 @@ class FishCard extends Component {
 
 }
 
-export default FishCard
+const mapStateToProps = (state) => {
+    return {loggedIn: state.loggedIn}
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        updateFish: (fishData) => dispatch(updateFish(fishData))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps) (FishCard)
