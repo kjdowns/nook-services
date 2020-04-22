@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import { fetchUser } from '../actions/userActions'
+import { Redirect } from 'react-router-dom'
 
 class Login extends Component {
 
@@ -20,19 +21,24 @@ class Login extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        const {history} = this.props
         this.props.fetchUser(this.state.username)
         this.setState({
             username: '',
             password: '',
         })
-        history.push('/')
+    }
+
+    redirectToHome = () => {
+        if (this.props.loggedIn) {
+            return <Redirect to="/" />
+        }
     }
 
     render(){
 
         return (
             <div>
+                {this.redirectToHome()}
                 <h1>Login Page</h1>
                 <form onSubmit={this.handleSubmit}>
                     <div>
@@ -53,8 +59,12 @@ class Login extends Component {
 
 }
 
+const mapStateToProps = (state) => {
+    return {loggedIn: state.loggedIn}
+}
+
 function mapDispatchToProps(dispatch){
     return {fetchUser: (username) => dispatch(fetchUser(username))}
 }
 
-export default connect(null, mapDispatchToProps) (Login)
+export default connect(mapStateToProps, mapDispatchToProps) (Login)
