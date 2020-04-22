@@ -13,7 +13,15 @@ export function createUser(userData){
         
         fetch("http://localhost:3001/users", configObj)
         .then(response => response.json())
-        .then(user => dispatch({type: 'LOAD_USER', user}));
+        .then(data => {
+            if (data.exception) {
+                let message = data.exception.replace("#<ActiveRecord::RecordInvalid: Validation failed:", "")
+                dispatch({type: "ERROR", message})
+                console.log(data.exception.replace("#<ActiveRecord::RecordInvalid: Validation failed:", ""))
+            } else {
+                dispatch({type: 'LOAD_USER', data});
+            }
+        })
     }
 }
 

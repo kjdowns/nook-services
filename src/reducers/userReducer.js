@@ -3,7 +3,8 @@ const userReducer = (state = {
     user: {},
     islands: [],
     fetching: false,
-    loggedIn: false
+    loggedIn: false,
+    message: ""
 }, action) => {
     switch (action.type) {
         case "START_LOADING_USER":
@@ -13,10 +14,13 @@ const userReducer = (state = {
             return {...state, fetching: true}
 
         case "LOAD_USER":
-            return {...state, user: action.user, fetching: false, loggedIn: true}
+            return {...state, user: action.data, fetching: false, loggedIn: true, message: ""}
 
         case "LOAD_ISLANDS":
             return {...state, islands: action.islands, fetching: false}
+
+        case "ERROR":
+            return {...state, message: action.message.replace(">", ""), fetching: false}
 
         default:
             return state;
