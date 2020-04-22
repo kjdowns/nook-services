@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
+import { Redirect } from 'react-router-dom'
 import { createUser } from '../actions/userActions'
 import { bugData, fishData } from '../data'
 
@@ -22,7 +23,6 @@ class Signup extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        const {history} = this.props
         if (this.state.password === this.state.passwordConfirm) {
             this.props.createUser({username: this.state.username, password: this.state.password, bugs: bugData, fish: fishData})
         } else {
@@ -33,13 +33,26 @@ class Signup extends Component {
             password: '',
             passwordConfirm: ''
         })
-        history.push("/")
+    }
+
+    ifErrorsShowMessage = () => {
+        if (this.props.message != "") {
+            return <h3>{this.props.message}</h3>
+        }
+    }
+
+    redirectToHome = () => {
+        if (this.props.loggedIn) {
+            return <Redirect to="/" />
+        }
     }
 
     render(){
         return(
             <div>
+                {this.redirectToHome()}
                 <h1>Signup Page</h1>
+                {this.ifErrorsShowMessage()}
                 <form onSubmit={this.handleSubmit}>
                     <div>
                         <label>Username: </label>
@@ -63,8 +76,15 @@ class Signup extends Component {
 
 }
 
-function mapDispatchToProps(dispatch){
+const mapStateToProps = (state) => {
+    return {
+        loggedIn: state.loggedIn,
+        message: state.message
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
     return {createUser: (userData) => dispatch(createUser(userData))}
 }
 
-export default connect(null, mapDispatchToProps)(Signup)
+export default connect(mapStateToProps, mapDispatchToProps)(Signup)
