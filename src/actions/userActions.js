@@ -69,3 +69,9 @@ export function updateFish(fishData){
         .catch(error => console.log(error))
     }
 }
+
+export function throwError(message){
+    return (dispatch) => {
+        dispatch({type: "ERROR", message})
+    }
+}

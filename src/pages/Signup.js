@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import { Redirect } from 'react-router-dom'
-import { createUser } from '../actions/userActions'
+import { createUser, throwError } from '../actions/userActions'
 import { bugData, fishData } from '../data'
 
 class Signup extends Component {
@@ -26,7 +26,8 @@ class Signup extends Component {
         if (this.state.password === this.state.passwordConfirm) {
             this.props.createUser({username: this.state.username, password: this.state.password, bugs: bugData, fish: fishData})
         } else {
-            console.log("passwords did not match")
+            let message = "Passwords do not match"
+            this.props.throwError(message);
         }
         this.setState({
             username: '',
@@ -84,7 +85,10 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {createUser: (userData) => dispatch(createUser(userData))}
+    return {
+        createUser: (userData) => dispatch(createUser(userData)),
+        throwError: (message) => dispatch(throwError(message))
+    }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Signup)
