@@ -7,11 +7,9 @@ class BugCard extends Component {
     handleClick = event => {
         let checked;
         if (event.target.className === "clicked") {
-            event.target.style = "background-color:grey"
             event.target.className = "unclicked"
             checked = false;
         } else {
-            event.target.style = "background-color:green"
             event.target.className = "clicked"
             checked = true;
         }
@@ -20,20 +18,20 @@ class BugCard extends Component {
         }
     }
 
-    setStyle = () => {
+    setClassName = () => {
         if (this.props.loggedIn) {
             if (this.props.checked) {
                 return (
-                    {backgroundColor: 'green'}
+                    "clicked"
                 )
             } else {
                 return (
-                    {backgroundColor: 'grey'}
+                    "unclicked"
                 )
             }
         } else {
             return (
-                {backgroundColor: 'grey'}
+                "unclicked"
             )
         }
     }
@@ -54,7 +52,7 @@ class BugCard extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src={this.props.url} style={this.setStyle()} height="64" width="64" className="unclicked" onClick={this.handleClick}/></td>
+                            <td><img src={this.props.url} height="64" width="64" className={this.setClassName()} onClick={this.handleClick}/></td>
                             <td> {this.props.name} </td>
                             <td> {this.props.location} </td>
                             <td> {this.props.time} </td>
