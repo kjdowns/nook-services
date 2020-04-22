@@ -17,7 +17,6 @@ export function createUser(userData){
             if (data.exception) {
                 let message = data.exception.replace("#<ActiveRecord::RecordInvalid: Validation failed:", "")
                 dispatch({type: "ERROR", message})
-                console.log(data.exception.replace("#<ActiveRecord::RecordInvalid: Validation failed:", ""))
             } else {
                 dispatch({type: 'LOAD_USER', data});
             }
