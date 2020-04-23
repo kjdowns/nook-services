@@ -62,7 +62,7 @@ export function updateBug(bugData){
         }
         fetch(`http://localhost:3001/bugs/${bugData.id}`, configObj)
         .then(response => response.json())
-        .then(user => dispatch({type: 'LOAD_USER', user}))
+        .then(data => dispatch({type: 'LOAD_USER', data}))
         .catch(error => console.log(error))
     }
 }
@@ -80,7 +80,7 @@ export function updateFish(fishData){
         }
         fetch(`http://localhost:3001/fish/${fishData.id}`, configObj)
         .then(response => response.json())
-        .then(user => dispatch({type: 'LOAD_USER', user}))
+        .then(data => dispatch({type: 'LOAD_USER', data}))
         .catch(error => console.log(error))
     }
 }
