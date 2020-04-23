@@ -14,6 +14,19 @@ h1 {
     font-size: 48px;
 }
 
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link-card {
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
 .clicked {
     background-color: green;
 }
@@ -26,5 +39,5 @@ h1 {
     height: 80px;
     width: 80px;
     border-radius: 25px;
-    background-color: beige;
+    background-color: rgba(171, 216, 236, 0.911);
 }
