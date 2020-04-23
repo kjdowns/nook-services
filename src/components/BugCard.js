@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux';
-import { updateBug, fetchUser } from '../actions/userActions'
+import { updateBug } from '../actions/userActions'
 
 class BugCard extends Component {
 
@@ -52,7 +52,7 @@ class BugCard extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src={this.props.url} height="64" width="64" className={this.setClassName()} onClick={this.handleClick}/></td>
+                            <td><img src={this.props.url} alt={this.props.name} height="64" width="64" className={this.setClassName()} onClick={this.handleClick}/></td>
                             <td> {this.props.name} </td>
                             <td> {this.props.location} </td>
                             <td> {this.props.time} </td>

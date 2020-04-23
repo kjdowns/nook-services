@@ -31,19 +31,19 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.cosmos.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.cosmos.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.cosmos.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.cosmos.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.cosmos.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.cosmos.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.cosmos.black} /> <br/> Black </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -60,49 +60,49 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.black} /> <br/> Black </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.roses.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.roses.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.roses.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.purple} /> <br/> Purple </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
-                                    <td><img src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.roses.purple} /> <br/> Purple </td>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.roses.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.blue} /> <br/> Blue </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.roses.black} /> <br/> Black </td>
-                                    <td><img src={flowerIcons.wateringCan} /> <br/> Gold Can </td>
-                                    <td><img src={flowerIcons.roses.gold} /> <br/> Gold </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.wateringCan} /> <br/> Gold Can </td>
+                                    <td><img alt="flower icon" src={flowerIcons.roses.gold} /> <br/> Gold </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -119,24 +119,24 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.tulips.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.tulips.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.black} /> <br/> Black </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.tulips.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.tulips.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.tulips.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.tulips.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.tulips.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.tulips.purple} /> <br/> Purple </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -153,24 +153,24 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.pansies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.pansies.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.pansies.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.pansies.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.pansies.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.pansies.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.blue} /> <br/> Blue </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.pansies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.pansies.blue} /> <br/> Blue </td>
-                                    <td><img src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.pansies.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.pansies.purple} /> <br/> Purple </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -187,24 +187,24 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.lilies.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.black} /> <br/> Black </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.black} /> <br/> Black </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.lilies.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.lilies.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.lilies.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.lilies.pink} /> <br/> Pink </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -221,44 +221,44 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.windflowers.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.windflowers.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
-                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
-                                    <td><img src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.red} /> <br/> Red <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.pink} /> <br/> Pink <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.windflowers.purple} /> <br/> Purple </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -275,24 +275,24 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.hyacinths.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.hyacinths.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.hyacinths.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.hyacinths.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.hyacinths.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.hyacinths.blue} /> <br/> Blue </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.blue} /> <br/> Blue </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
-                                    <td><img src={flowerIcons.hyacinths.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.orange} /> <br/> Orange </td>
+                                    <td><img alt="flower icon" src={flowerIcons.hyacinths.purple} /> <br/> Purple </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -309,34 +309,34 @@ class Flowers extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.mums.pink} /> <br/> Pink </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.pink} /> <br/> Pink </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.mums.white} /> <br/> White </td>
-                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.white} /> <br/> White </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.purple} /> <br/> Purple </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.red} /> <br/> Red </td>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow </td>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.red} /> <br/> Red </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
-                                    <td><img height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.yellow} /> <br/> Yellow <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
-                                    <td><img src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
-                                    <td><img height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" src={flowerIcons.mums.purple} /> <br/> Purple <br/> (Hybrid) </td>
+                                    <td><img alt="flower icon" height="30" width="30" src={flowerIcons.mums.green} /> <br/> Green </td>
                                 </tr>
                             </tbody>
                         </table>

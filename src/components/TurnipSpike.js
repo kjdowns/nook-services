@@ -6,7 +6,7 @@ class TurnipSpike extends Component {
         return (
             <>
                 <h2>{this.props.type}</h2>
-                <img src={this.props.url} />
+                <img alt={this.props.type} src={this.props.url} />
             </>
         )
     }

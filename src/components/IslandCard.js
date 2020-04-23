@@ -17,7 +17,7 @@ class IslandCard extends Component {
                     <tr>
                         <td>{this.props.name}</td>
                         <td>{this.props.rate}</td>
-                        <td><img src={this.props.url} height="120" width="120" /></td>
+                        <td><img src={this.props.url} alt="island" height="120" width="120" /></td>
                     </tr>
                     </tbody>
                 </table>

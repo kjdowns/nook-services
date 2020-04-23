@@ -37,7 +37,7 @@ class Signup extends Component {
     }
 
     ifErrorsShowMessage = () => {
-        if (this.props.message != "") {
+        if (this.props.message !== "") {
             return <h3>{this.props.message}</h3>
         }
     }
