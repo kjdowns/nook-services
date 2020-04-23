@@ -9,3 +9,10 @@ body {
 .unclicked {
     background-color: grey;
 } 
+
+.service-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: beige;
+}
