@@ -10,7 +10,7 @@ class LinkCard extends Component {
     render(){
         return (
             <div className={ this.props.name + "-link-card"}>
-                <Link to={"/" + this.props.name}> {this.capitalizeString(this.props.name)}</Link>
+                <Link to={"/" + this.props.name}> <img src={this.props.url} /><br/>{this.capitalizeString(this.props.name)}</Link>
             </div>
         )
     }

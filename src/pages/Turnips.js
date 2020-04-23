@@ -8,7 +8,7 @@ class Turnips extends Component {
             <div>
                 <h1>Sow Joan's Stalk Market</h1>
                 <div>
-                    <img alt="Diasy Mae" src="https://i1.wp.com/nintygamer.com/wp-content/uploads/2020/04/daisy-mae.jpg?w=700&ssl=1" />
+                    <img alt="Diasy Mae" src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/85/Daisy_Mae.png/revision/latest?cb=20200220213944" />
                     <p>
                         Every Sunday from 4 AM to 12 PM, Daisy Mae will wander somewhere along your island. 
                         She spawns randomly and seems to walk all over the island, so you will have to search for her.
