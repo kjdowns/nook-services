@@ -34,12 +34,19 @@ class Login extends Component {
         }
     }
 
+    ifErrorsShowMessage = () => {
+        if (this.props.message !== "") {
+            return <h3>{this.props.message}</h3>
+        }
+    }
+
     render(){
 
         return (
             <div>
                 {this.redirectToHome()}
                 <h1>Login Page</h1>
+                {this.ifErrorsShowMessage()}
                 <form onSubmit={this.handleSubmit}>
                     <div>
                         <label>Username: </label>
@@ -60,7 +67,10 @@ class Login extends Component {
 }
 
 const mapStateToProps = (state) => {
-    return {loggedIn: state.loggedIn}
+    return {
+        loggedIn: state.loggedIn,
+        message: state.message
+    }
 }
 
 function mapDispatchToProps(dispatch){
