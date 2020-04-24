@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import FishContainer from '../containers/FishContainer'
 
-class Fish extends Component {
+const Fish = () => {
 
-    render(){
         return(
             <div>
                 <h1>Fish Page</h1>
@@ -11,6 +10,5 @@ class Fish extends Component {
             </div>
         )
     }
-}
 
 export default Fish
