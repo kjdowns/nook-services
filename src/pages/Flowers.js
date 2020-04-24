@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {flowerIcons, cosmos, roses, tulips, pansies, lilies, windflowers, mums, hyacinths} from '../data'
 import FlowerCard from '../components/FlowerCard'
 
-class Flowers extends Component {
-    
-    render(){
+const Flowers = () => {
 
         return (
             <div className="flower-page">
@@ -347,7 +345,5 @@ class Flowers extends Component {
             </div>
         )
     }
-
-}
 
 export default Flowers;
