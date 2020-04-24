@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import { Redirect } from 'react-router-dom'
+
 import { createUser, throwError } from '../actions/userActions'
 import { bugData, fishData } from '../data'
 

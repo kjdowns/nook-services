@@ -1,4 +1,5 @@
 import React from 'react';
+
 import LinkContainer from '../containers/LinkContainer'
 
 const Home = () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import BugContainer from '../containers/BugContainer'
 
 const Bugs = () => {

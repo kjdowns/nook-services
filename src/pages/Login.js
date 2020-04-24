@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
-import { fetchUser } from '../actions/userActions'
 import { Redirect } from 'react-router-dom'
+
+import { fetchUser } from '../actions/userActions'
+
 
 class Login extends Component {
 
