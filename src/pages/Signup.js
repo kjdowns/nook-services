@@ -38,7 +38,7 @@ class Signup extends Component {
 
     ifErrorsShowMessage = () => {
         if (this.props.message !== "") {
-            return <h3>{this.props.message}</h3>
+            return <h3 className="error">{this.props.message}</h3>
         }
     }
 
@@ -50,7 +50,7 @@ class Signup extends Component {
 
     render(){
         return(
-            <div>
+            <div className="signup-page">
                 {this.redirectToHome()}
                 <h1>Signup Page</h1>
                 {this.ifErrorsShowMessage()}

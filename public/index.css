@@ -63,6 +63,14 @@ h1 {
     margin-bottom: 75px;
 }
 
+.login-page, .signup-page {
+    margin-bottom: 50px;
+}
+
+.error {
+    color: rgb(247, 70, 70);
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0;

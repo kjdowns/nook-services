@@ -36,14 +36,14 @@ class Login extends Component {
 
     ifErrorsShowMessage = () => {
         if (this.props.message !== "") {
-            return <h3>{this.props.message}</h3>
+            return <h3 className="error">{this.props.message}</h3>
         }
     }
 
     render(){
 
         return (
-            <div>
+            <div className="login-page">
                 {this.redirectToHome()}
                 <h1>Login Page</h1>
                 {this.ifErrorsShowMessage()}
