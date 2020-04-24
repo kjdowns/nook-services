@@ -52,7 +52,7 @@ class FishCard extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src={this.props.url} alt={this.props.name} height="64" width="64" className={this.setClassName()} onClick={this.handleClick}/></td>
+                            <td><img src={this.props.url} alt={this.props.name} id="creature-icon" className={this.setClassName()} onClick={this.handleClick}/></td>
                             <td> {this.props.name} </td>
                             <td> {this.props.location} </td>
                             <td> {this.props.time} </td>
