@@ -12,12 +12,12 @@ import Flowers from './pages/Flowers'
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware, compose} from 'redux'
 import thunk from 'redux-thunk'
-import userReducer from './reducers/userReducer'
+import appReducer from './reducers/appReducer'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/NavBar';
 
-const store = createStore(userReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))
+const store = createStore(appReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))
 
 ReactDOM.render(
   <Provider store={store}>

@@ -1,5 +1,5 @@
 
-const userReducer = (state = {
+const appReducer = (state = {
     user: {},
     islands: [],
     fetching: false,
@@ -27,4 +27,4 @@ const userReducer = (state = {
     }
 }
 
-export default userReducer;
+export default appReducer;
