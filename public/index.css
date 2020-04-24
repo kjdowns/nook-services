@@ -34,7 +34,7 @@ h1 {
     font-size: 48px;
 }
 
-#nook {
+#nook, #spike-chart {
     border-radius: 15px;
 }
 
@@ -80,6 +80,7 @@ h1 {
 .island-card {
     display: flex;
     margin: 30px;  
+    align-items: center;
 }
 
 .island-card p {
@@ -87,6 +88,37 @@ h1 {
     width: 40%;
     border-radius: 15px;
     background-color:  rgba(207, 245, 215, 0.747);
+}
+
+#turnip-header {
+    display: flex;
+    flex-direction: row;
+}
+
+#turnip-header img {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#turnip-header div {
+    margin-right: 50px;
+}
+
+#turnip-header img, #turnip-header div, .spike-text {
+    border-radius: 15px;
+    background-color:  rgba(207, 245, 215, 0.747);
+}
+
+.spike-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.turnip-spike, .spike-text {
+    margin-right: 15px;
+    margin-left: 15px
 }
 
 table {
