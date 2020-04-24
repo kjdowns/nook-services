@@ -31,7 +31,7 @@ class BugContainer extends Component {
     
     render(){
         return(
-            <div>
+            <div className="bug-table-wrapper">
                 {this.renderBugs()}
             </div>
         )
