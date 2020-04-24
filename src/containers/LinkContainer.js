@@ -1,4 +1,5 @@
 import React from 'react'
+
 import LinkCard from '../components/LinkCard'
 
 const LinkContainer = () => {
