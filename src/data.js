@@ -649,7 +649,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Nov - Mar"],
-        southMonths: [],
+        southMonths: ["May - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -657,7 +657,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -665,7 +665,7 @@ export const fishData = [
         location: "River",
         time: "All day	",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -673,7 +673,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -681,7 +681,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -689,7 +689,7 @@ export const fishData = [
         location: "Pond",
         time: "4 PM - 9 AM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -697,7 +697,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -705,7 +705,7 @@ export const fishData = [
         location: "Pond	",
         time: "9 AM - 4 PM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -713,7 +713,7 @@ export const fishData = [
         location: "Pond	",
         time: "9 AM - 4 PM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -721,7 +721,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["Apr - Aug"],
-        southMonths: [],
+        southMonths: ["Nov - Feb"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -729,7 +729,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["Apr - Sep"],
-        southMonths: [],
+        southMonths: ["Nov - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -737,7 +737,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["Aug - Sep"],
-        southMonths: [],
+        southMonths: ["Feb - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -745,7 +745,7 @@ export const fishData = [
         location: "River",
         time: "9 PM - 4 AM",
         northMonths: ["Apr - Oct"],
-        southMonths: [],
+        southMonths: ["Oct - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -753,7 +753,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["Mar - Jul"],
-        southMonths: [],
+        southMonths: ["Sep - Jan"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -761,7 +761,7 @@ export const fishData = [
         location: "Pond",
         time: "All day",
         northMonths: ["May - Aug"],
-        southMonths: [],
+        southMonths: ["Nov - Feb"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -769,7 +769,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -777,7 +777,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Mar - May"],
-        southMonths: [],
+        southMonths: ["Sep - Nov"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -785,7 +785,7 @@ export const fishData = [
         location: "Pond",
         time: "4 PM - 9 AM",
         northMonths: ["May - Oct"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -793,7 +793,7 @@ export const fishData = [
         location: "Pond",
         time: "9 AM - 4 PM",
         northMonths: ["Jun - Aug"],
-        southMonths: [],
+        southMonths: ["Dec - Feb"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -801,7 +801,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -809,7 +809,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Oct - Mar"],
-        southMonths: [],
+        southMonths: ["Apr - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -817,7 +817,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -825,7 +825,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Jun - Oct"],
-        southMonths: [],
+        southMonths: ["Dec - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -833,7 +833,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Sep - Dec"],
-        southMonths: [],
+        southMonths: ["Mar - Jun"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -841,7 +841,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Dec - Feb"],
-        southMonths: [],
+        southMonths: ["Jun - Aug"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -849,7 +849,7 @@ export const fishData = [
         location: "River",
         time: "All day",
         northMonths: ["Jul - Sep"],
-        southMonths: [],
+        southMonths: ["Jan - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -857,7 +857,7 @@ export const fishData = [
         location: "River (Clifftop)",
         time: "4 PM - 9 AM",
         northMonths: ["Mar - Jun", "Sep - Nov"],
-        southMonths: [],
+        southMonths: ["Mar - May", "Sep - Dec"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -865,7 +865,7 @@ export const fishData = [
         location: "River (Clifftop)",
         time: "4 PM - 9 AM",
         northMonths: ["Mar - Jun", "Sep - Nov"],
-        southMonths: [],
+        southMonths: ["Mar - May", "Sep - Dec"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -873,7 +873,7 @@ export const fishData = [
         location: "River (Clifftop)",
         time: "4 PM - 9 AM",
         northMonths: ["Mar - May", "Sep - Nov"],
-        southMonths: [],
+        southMonths: ["Mar - May", "Sep - Nov"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -881,7 +881,7 @@ export const fishData = [
         location: "River (Clifftop)",
         time: "4 PM - 9 AM",
         northMonths: ["Dec - Mar"],
-        southMonths: [],
+        southMonths: ["Jun - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -889,7 +889,7 @@ export const fishData = [
         location: "River (Mouth)",
         time: "All day",
         northMonths: ["Sep"],
-        southMonths: [],
+        southMonths: ["Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -897,7 +897,7 @@ export const fishData = [
         location: "River (Mouth)",
         time: "All day",
         northMonths: ["Sep"],
-        southMonths: [],
+        southMonths: ["Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -905,7 +905,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["Sep - Nov"],
-        southMonths: [],
+        southMonths: ["Mar - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -913,7 +913,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["Apr - Nov"],
-        southMonths: [],
+        southMonths: ["Oct - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -921,7 +921,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["May - Sep"],
-        southMonths: [],
+        southMonths: ["Nov - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -929,7 +929,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["May - Nov"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -937,7 +937,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["May - Nov"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -945,7 +945,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["Apr - Nov"],
-        southMonths: [],
+        southMonths: ["Oct - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -953,7 +953,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM",
         northMonths: ["May - Oct"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -961,7 +961,7 @@ export const fishData = [
         location: "River",
         time: "9 AM - 4 PM & 9 PM - 4 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -969,7 +969,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -977,7 +977,7 @@ export const fishData = [
         location: "River",
         time: "4 AM - 9 PM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -985,7 +985,7 @@ export const fishData = [
         location: "Pond",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -993,7 +993,7 @@ export const fishData = [
         location: "River",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -1001,7 +1001,7 @@ export const fishData = [
         location: "River",
         time: "9 PM - 4 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1009,7 +1009,7 @@ export const fishData = [
         location: "River (Mouth)",
         time: "All day",
         northMonths: ["Sep - Mar"],
-        southMonths: [],
+        southMonths: ["Mar - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1017,7 +1017,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Dec - Mar"],
-        southMonths: [],
+        southMonths: ["Jun - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1025,7 +1025,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Apr - Nov"],
-        southMonths: [],
+        southMonths: ["Oct - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1033,7 +1033,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Apr - Sep"],
-        southMonths: [],
+        southMonths: ["Oct - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1041,7 +1041,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Apr - Sep"],
-        southMonths: [],
+        southMonths: ["Oct - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1049,7 +1049,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Apr - Sep"],
-        southMonths: [],
+        southMonths: ["Oct - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1057,7 +1057,7 @@ export const fishData = [
         location: "Sea",
         time: "4 AM - 9 PM",
         northMonths: ["Jul - Aug"],
-        southMonths: [],
+        southMonths: ["Jan - Feb"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1065,7 +1065,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Apr - Nov"],
-        southMonths: [],
+        southMonths: ["Oct - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1073,7 +1073,7 @@ export const fishData = [
         location: "Sea",
         time: "9 PM - 4 AM",
         northMonths: ["Nov - Feb"],
-        southMonths: [],
+        southMonths: ["May - Aug"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1081,7 +1081,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Jul - Sep"],
-        southMonths: [],
+        southMonths: ["Jan - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1089,7 +1089,7 @@ export const fishData = [
         location: "Sea",
         time: "4 AM - 9 PM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1097,7 +1097,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1105,7 +1105,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Mar - Nov"],
-        southMonths: [],
+        southMonths: ["Sep - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -1113,7 +1113,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1121,7 +1121,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1129,7 +1129,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Oct - Apr"],
-        southMonths: [],
+        southMonths: ["Apr - Oct"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1137,7 +1137,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1145,7 +1145,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Dec - Aug"],
-        southMonths: [],
+        southMonths: ["Jun - Feb"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1153,7 +1153,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Aug - Oct"],
-        southMonths: [],
+        southMonths: ["Feb - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png/revision/latest/scale-to-width-down/64?cb=20200401003130"
     },
     {
@@ -1161,7 +1161,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Jun - Oct"],
-        southMonths: [],
+        southMonths: ["Dec - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1169,7 +1169,7 @@ export const fishData = [
         location: "Pier",
         time: "All day",
         northMonths: ["Nov - Apr"],
-        southMonths: [],
+        southMonths: ["May - Oct"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1177,7 +1177,7 @@ export const fishData = [
         location: "Pier",
         time: "All day",
         northMonths: ["Nov - Apr", "Jul - Aug"],
-        southMonths: [],
+        southMonths: ["Jan - Mar", "May - Oct"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1185,7 +1185,7 @@ export const fishData = [
         location: "Pier",
         time: "All day",
         northMonths: ["May - Oct"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1193,7 +1193,7 @@ export const fishData = [
         location: "Pier",
         time: "All day",
         northMonths: ["May - Oct"],
-        southMonths: [],
+        southMonths: ["Nov - Apr"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1201,7 +1201,7 @@ export const fishData = [
         location: "Sea",
         time: "4 AM - 9 PM",
         northMonths: ["Jul - Sep"],
-        southMonths: [],
+        southMonths: ["Jan - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1209,7 +1209,7 @@ export const fishData = [
         location: "Sea",
         time: "4 AM - 9 PM",
         northMonths: ["Aug - Nov"],
-        southMonths: [],
+        southMonths: ["Feb - May"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1217,7 +1217,7 @@ export const fishData = [
         location: "Sea",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1225,7 +1225,7 @@ export const fishData = [
         location: "Sea",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1233,7 +1233,7 @@ export const fishData = [
         location: "Sea",
         time: "4 PM - 9 AM",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1241,7 +1241,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1249,7 +1249,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Jun - Sep"],
-        southMonths: [],
+        southMonths: ["Dec - Mar"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png/revision/latest/scale-to-width-down/64?cb=20200401003131"
     },
     {
@@ -1257,7 +1257,7 @@ export const fishData = [
         location: "Sea",
         time: "4 PM - 9 AM",
         northMonths: ["Nov - Mar"],
-        southMonths: [],
+        southMonths: ["May - Sep"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1265,7 +1265,7 @@ export const fishData = [
         location: "Sea",
         time: "All day",
         northMonths: ["Dec - May"],
-        southMonths: [],
+        southMonths: ["Jun - Nov"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     },
     {
@@ -1273,7 +1273,7 @@ export const fishData = [
         location: "Sea",
         time: "9 PM - 4 AM",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png/revision/latest/scale-to-width-down/64?cb=20200401003128"
     },
     {
@@ -1281,7 +1281,7 @@ export const fishData = [
         location: "Sea (Raining)",
         time: "All day",
         northMonths: ["All Year"],
-        southMonths: [],
+        southMonths: ["All Year"],
         url: "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png/revision/latest/scale-to-width-down/64?cb=20200401003129"
     }
 ]
