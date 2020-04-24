@@ -7,7 +7,7 @@ class Flowers extends Component {
     render(){
 
         return (
-            <div>
+            <div className="flower-page">
                 <div>
                     <h1>Flowers Page</h1>
                     <p>

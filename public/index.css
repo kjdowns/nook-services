@@ -71,6 +71,11 @@ h1 {
     color: rgb(247, 70, 70);
 }
 
+.flower-page p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0;
