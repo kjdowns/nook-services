@@ -1,8 +1,7 @@
-import React, { Component} from 'react'
+import React from 'react'
 
-class IslandCard extends Component {
+const IslandCard = props => {
 
-    render(){
         return(
             <div className="island-card">
                 <table>
@@ -15,17 +14,15 @@ class IslandCard extends Component {
                     </thead>
                     <tbody>
                     <tr>
-                        <td>{this.props.name}</td>
-                        <td>{this.props.rate}</td>
-                        <td><img src={this.props.url} alt="island" height="120" width="120" /></td>
+                        <td>{props.name}</td>
+                        <td>{props.rate}</td>
+                        <td><img src={props.url} alt="island" height="120" width="120" /></td>
                     </tr>
                     </tbody>
                 </table>
-                <p>{this.props.description}</p>
+                <p>{props.description}</p>
             </div>
         )
     }
-
-}
 
 export default IslandCard;
