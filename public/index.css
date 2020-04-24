@@ -71,9 +71,22 @@ h1 {
     color: rgb(247, 70, 70);
 }
 
-.flower-page p {
+.flower-page p, .island-page p {
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.island-card {
+    display: flex;
+    margin: 30px;  
+}
+
+.island-card p {
+    margin: 20px;
+    width: 40%;
+    border-radius: 15px;
+    background-color:  rgba(207, 245, 215, 0.747);
 }
 
 table {

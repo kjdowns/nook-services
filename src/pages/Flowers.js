@@ -9,7 +9,7 @@ class Flowers extends Component {
         return (
             <div className="flower-page">
                 <div>
-                    <h1>Flowers Page</h1>
+                    <h1>Flower Services</h1>
                     <p>
                         Flower seeds can be purchased from Nook's Cranny. They can be planted either by players or villagers, although 
                         some special flowers only occur when specific criteria are satisfied. Flowers will grow throughout the year. 

@@ -12,8 +12,14 @@ class MysteryIsland extends Component {
 
     render(){
         return(
-            <div>
-                <h1>Island Page</h1>
+            <div className="island-page">
+                <h1>Mystery Island Tours</h1>
+                <p>
+                    Mystery Island Tours allow you to visit random uncharted islands. They provide an additional way
+                    to gather crafting materials, as well as opportunities to collect rare fish and bugs, non-native fruit trees,
+                    and hybrid flowers. Accessing the island requires a Nook Miles Ticket, which can be purchased from the Nook Stop 
+                    in Resident Services for 2,000 Nook Miles. There are exactly 20 unique island layouts
+                </p>
                 <IslandContainer />
             </div>
         )
