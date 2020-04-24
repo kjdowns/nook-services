@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import TurnipSpike from '../components/TurnipSpike'
 
-class Turnips extends Component {
+const Turnips = () => {
 
-    render(){
         return(
             <div className="turnip-page">
                 <h1>Sow Joan's Stalk Market</h1>
@@ -116,7 +115,5 @@ class Turnips extends Component {
             </div>
         )
     }
-    
-}
 
 export default Turnips
