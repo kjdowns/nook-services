@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import LinkCard from '../components/LinkCard'
 
-class LinkContainer extends Component {
-    
-    render (){
+const LinkContainer = () => {
+
         return (
             <div className="link-container">
                 <LinkCard name={"bugs"} url={"https://vignette.wikia.nocookie.net/animalcrossing/images/8/83/NH-RedNet.png/revision/latest?cb=20200419235219"} />
@@ -14,7 +13,5 @@ class LinkContainer extends Component {
             </div>
         )
     }
-
-}
 
 export default LinkContainer;
