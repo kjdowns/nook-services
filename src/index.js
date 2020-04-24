@@ -1,5 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux'
+import {createStore, applyMiddleware, compose} from 'redux'
+import thunk from 'redux-thunk'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import appReducer from './reducers/appReducer'
+import Navbar from './components/NavBar';
+
 import Home from './pages/Home';
 import Bugs from './pages/Bugs'
 import Fish from './pages/Fish'
@@ -8,14 +16,6 @@ import Login from './pages/Login'
 import Signup from './pages/Signup';
 import Turnips from './pages/Turnips';
 import Flowers from './pages/Flowers'
-
-import {Provider} from 'react-redux'
-import {createStore, applyMiddleware, compose} from 'redux'
-import thunk from 'redux-thunk'
-import appReducer from './reducers/appReducer'
-
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Navbar from './components/NavBar';
 
 const store = createStore(appReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))
 
