@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import LinkContainer from '../containers/LinkContainer'
 
-class Home extends Component {
+const Home = () => {
 
-  render() {
     return (
       <div className="home-page">
         <h1>Welcome To Nook Services!</h1>
@@ -13,6 +12,5 @@ class Home extends Component {
       </div>
     )
   }
-}
 
 export default Home
