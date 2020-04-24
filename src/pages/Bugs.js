@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import BugContainer from '../containers/BugContainer'
 
-class Bugs extends Component {
+const Bugs = () => {
 
-    render(){
         return(
             <div className="bug-page-wrapper">
                 <h1>Bug Services</h1>
@@ -16,6 +15,5 @@ class Bugs extends Component {
             </div>
         )
     }
-}
 
 export default Bugs
