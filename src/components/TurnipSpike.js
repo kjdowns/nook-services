@@ -1,16 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 
-class TurnipSpike extends Component {
+const TurnipSpike = props => {
 
-    render(){
         return (
             <div className="turnip-spike">
-                <h2>{this.props.type}</h2>
-                <img className="spike-chart" alt={this.props.type} src={this.props.url} />
+                <h2>{props.type}</h2>
+                <img className="spike-chart" alt={props.type} src={props.url} />
             </div>
         )
     }
-
-}
 
 export default TurnipSpike
