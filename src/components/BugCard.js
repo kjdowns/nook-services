@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux';
-import { updateBug } from '../actions/userActions'
+import { updateBug } from '../actions/creatureActions'
 
 class BugCard extends Component {
 

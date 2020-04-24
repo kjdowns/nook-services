@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux';
-import {updateFish} from '../actions/userActions'
+import {updateFish} from '../actions/creatureActions'
 
 class FishCard extends Component {
 
