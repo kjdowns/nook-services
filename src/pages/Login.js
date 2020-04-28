@@ -26,7 +26,7 @@ class Login extends Component {
         this.props.fetchUser(this.state)
         this.setState({
             username: '',
-            password: '',
+            password: ''
         })
     }
 
