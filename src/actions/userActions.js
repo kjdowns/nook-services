@@ -1,3 +1,4 @@
+const apiPath = "http://localhost:3001/"
 
 export function createUser(userData){
     return (dispatch) => {
@@ -11,7 +12,7 @@ export function createUser(userData){
             body: JSON.stringify(userData)
         };
         
-        fetch("http://localhost:3001/users", configObj)
+        fetch(apiPath + "users", configObj)
         .then(response => response.json())
         .then(data => {
             if (data.exception) {
@@ -35,7 +36,7 @@ export function fetchUser(userData){
             },
             body: JSON.stringify(userData)
         }
-        fetch(`http://localhost:3001/login`, configObj)
+        fetch(apiPath + `login`, configObj)
         .then(response => response.json())
         .then(data => {
             console.log(data)

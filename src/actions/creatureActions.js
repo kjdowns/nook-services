@@ -1,3 +1,5 @@
+const apiPath = "http://localhost:3001/"
+
 export function updateBug(bugData){
     return (dispatch) => {
         dispatch({type: 'START_BUG_UPDATE'})
@@ -9,7 +11,7 @@ export function updateBug(bugData){
             },
             body: JSON.stringify(bugData)
         }
-        fetch(`http://localhost:3001/bugs/${bugData.id}`, configObj)
+        fetch(apiPath + `bugs/${bugData.id}`, configObj)
         .then(response => response.json())
         .then(data => dispatch({type: 'LOAD_USER', data}))
         .catch(error => console.log(error))
@@ -27,7 +29,7 @@ export function updateFish(fishData){
             },
             body: JSON.stringify(fishData)
         }
-        fetch(`http://localhost:3001/fish/${fishData.id}`, configObj)
+        fetch(apiPath + `fish/${fishData.id}`, configObj)
         .then(response => response.json())
         .then(data => dispatch({type: 'LOAD_USER', data}))
         .catch(error => console.log(error))
