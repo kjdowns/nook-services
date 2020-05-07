@@ -1,4 +1,4 @@
-const apiPath = "http://localhost:3001/"
+const apiPath = "https://nook-services-api.herokuapp.com/"
 
 export function updateBug(bugData){
     return (dispatch) => {
